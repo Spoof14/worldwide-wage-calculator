@@ -9,9 +9,7 @@ import { unstable_cache } from "next/cache";
 export const tableRouter = createTRPCRouter({
   getData: publicProcedure
     .input(z.object({ wage: z.string() }))
-    .query(({ input, ctx }) => {
-      console.log("router");
-
+    .query(({ input }) => {
       return getData(input.wage ?? "70000");
     }),
 });
@@ -22,7 +20,6 @@ const baseUrl =
 const continents = ["Asia-Pacific", "Europe", "Africa", "N.%20America"];
 
 async function INTERNAL_getData(salary: string) {
-  console.log("internal");
   const continentData = await getContinentData(salary);
   const relevantData = continentData.flatMap(
     makeRelevantContinentData,
