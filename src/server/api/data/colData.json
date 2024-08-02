@@ -1,0 +1,5492 @@
+[
+    {
+        "number": 1,
+        "city": "Hamilton, Bermuda",
+        "colIndex": 140.4,
+        "rentIndex": 93.6,
+        "colAndRent": 118.1,
+        "groceries": 144.1,
+        "restaurant": 141.9,
+        "ppi": 74.3
+    },
+    {
+        "number": 2,
+        "city": "Basel, Switzerland",
+        "colIndex": 130,
+        "rentIndex": 46.4,
+        "colAndRent": 90.2,
+        "groceries": 137.4,
+        "restaurant": 121.7,
+        "ppi": 113.2
+    },
+    {
+        "number": 3,
+        "city": "Zurich, Switzerland",
+        "colIndex": 128.5,
+        "rentIndex": 69.1,
+        "colAndRent": 100.2,
+        "groceries": 120.4,
+        "restaurant": 129.7,
+        "ppi": 104
+    },
+    {
+        "number": 4,
+        "city": "Lausanne, Switzerland",
+        "colIndex": 120.6,
+        "rentIndex": 53.4,
+        "colAndRent": 88.6,
+        "groceries": 116.1,
+        "restaurant": 114.7,
+        "ppi": 99.4
+    },
+    {
+        "number": 5,
+        "city": "Zug, Switzerland",
+        "colIndex": 119.1,
+        "rentIndex": 66.7,
+        "colAndRent": 94.1,
+        "groceries": 112.6,
+        "restaurant": 120.7,
+        "ppi": 121.4
+    },
+    {
+        "number": 6,
+        "city": "George Town, Cayman Islands",
+        "colIndex": 118.5,
+        "rentIndex": 79.7,
+        "colAndRent": 100,
+        "groceries": 106.4,
+        "restaurant": 116.5,
+        "ppi": 65.1
+    },
+    {
+        "number": 7,
+        "city": "Geneva, Switzerland",
+        "colIndex": 112.9,
+        "rentIndex": 68.2,
+        "colAndRent": 91.6,
+        "groceries": 106.9,
+        "restaurant": 118.7,
+        "ppi": 100
+    },
+    {
+        "number": 8,
+        "city": "Bern, Switzerland",
+        "colIndex": 111.2,
+        "rentIndex": 36.6,
+        "colAndRent": 75.7,
+        "groceries": 104.7,
+        "restaurant": 99.7,
+        "ppi": 134.8
+    },
+    {
+        "number": 9,
+        "city": "Nassau, Bahamas",
+        "colIndex": 103.3,
+        "rentIndex": 42.8,
+        "colAndRent": 74.5,
+        "groceries": 85.2,
+        "restaurant": 109.7,
+        "ppi": 39.4
+    },
+    {
+        "number": 10,
+        "city": "New York, NY, United States",
+        "colIndex": 100,
+        "rentIndex": 100,
+        "colAndRent": 100,
+        "groceries": 100,
+        "restaurant": 100,
+        "ppi": 100
+    },
+    {
+        "number": 11,
+        "city": "Honolulu, HI, United States",
+        "colIndex": 98.4,
+        "rentIndex": 60.7,
+        "colAndRent": 80.4,
+        "groceries": 107,
+        "restaurant": 84.5,
+        "ppi": 74.4
+    },
+    {
+        "number": 12,
+        "city": "San Francisco, CA, United States",
+        "colIndex": 98.4,
+        "rentIndex": 90.3,
+        "colAndRent": 94.5,
+        "groceries": 98.4,
+        "restaurant": 98.9,
+        "ppi": 100.3
+    },
+    {
+        "number": 13,
+        "city": "Oakland, CA, United States",
+        "colIndex": 98.1,
+        "rentIndex": 73.1,
+        "colAndRent": 86.2,
+        "groceries": 97.3,
+        "restaurant": 98.9,
+        "ppi": 104.7
+    },
+    {
+        "number": 14,
+        "city": "Seattle, WA, United States",
+        "colIndex": 94.6,
+        "rentIndex": 71,
+        "colAndRent": 83.4,
+        "groceries": 87.5,
+        "restaurant": 101.6,
+        "ppi": 108.4
+    },
+    {
+        "number": 15,
+        "city": "Reykjavik, Iceland",
+        "colIndex": 90.8,
+        "rentIndex": 42.2,
+        "colAndRent": 67.6,
+        "groceries": 86.6,
+        "restaurant": 97,
+        "ppi": 85.4
+    },
+    {
+        "number": 16,
+        "city": "Canberra, Australia",
+        "colIndex": 89.2,
+        "rentIndex": 47,
+        "colAndRent": 69.1,
+        "groceries": 77.6,
+        "restaurant": 113.3,
+        "ppi": 69.1
+    },
+    {
+        "number": 17,
+        "city": "Adelaide, Australia",
+        "colIndex": 89,
+        "rentIndex": 37.7,
+        "colAndRent": 64.6,
+        "groceries": 84.8,
+        "restaurant": 101.1,
+        "ppi": 67.3
+    },
+    {
+        "number": 18,
+        "city": "Barbados, Barbados",
+        "colIndex": 88.9,
+        "rentIndex": 21.2,
+        "colAndRent": 56.7,
+        "groceries": 80.5,
+        "restaurant": 85.5,
+        "ppi": 29.5
+    },
+    {
+        "number": 19,
+        "city": "Boston, MA, United States",
+        "colIndex": 88.7,
+        "rentIndex": 74.7,
+        "colAndRent": 82,
+        "groceries": 87.4,
+        "restaurant": 97.4,
+        "ppi": 106.6
+    },
+    {
+        "number": 20,
+        "city": "Trondheim, Norway",
+        "colIndex": 88.1,
+        "rentIndex": 30.3,
+        "colAndRent": 60.6,
+        "groceries": 76.1,
+        "restaurant": 95.8,
+        "ppi": 87.8
+    },
+    {
+        "number": 21,
+        "city": "Saint Helier, Jersey",
+        "colIndex": 88,
+        "rentIndex": 55,
+        "colAndRent": 72.3,
+        "groceries": 65.6,
+        "restaurant": 144.5,
+        "ppi": 62.2
+    },
+    {
+        "number": 22,
+        "city": "San Jose, CA, United States",
+        "colIndex": 87.7,
+        "rentIndex": 76.3,
+        "colAndRent": 82.3,
+        "groceries": 81.7,
+        "restaurant": 90.3,
+        "ppi": 130.4
+    },
+    {
+        "number": 23,
+        "city": "Sacramento, CA, United States",
+        "colIndex": 87.4,
+        "rentIndex": 57.7,
+        "colAndRent": 73.2,
+        "groceries": 88,
+        "restaurant": 76.1,
+        "ppi": 98.5
+    },
+    {
+        "number": 24,
+        "city": "Bergen, Norway",
+        "colIndex": 87.1,
+        "rentIndex": 29.3,
+        "colAndRent": 59.6,
+        "groceries": 79.9,
+        "restaurant": 90.5,
+        "ppi": 77.6
+    },
+    {
+        "number": 25,
+        "city": "San Diego, CA, United States",
+        "colIndex": 86.5,
+        "rentIndex": 79.5,
+        "colAndRent": 83.2,
+        "groceries": 77.9,
+        "restaurant": 95.8,
+        "ppi": 101.3
+    },
+    {
+        "number": 26,
+        "city": "Portland, OR, United States",
+        "colIndex": 86.5,
+        "rentIndex": 51.3,
+        "colAndRent": 69.7,
+        "groceries": 80.5,
+        "restaurant": 88.7,
+        "ppi": 102
+    },
+    {
+        "number": 27,
+        "city": "Washington, DC, United States",
+        "colIndex": 86.1,
+        "rentIndex": 73.4,
+        "colAndRent": 80.1,
+        "groceries": 82.5,
+        "restaurant": 90.3,
+        "ppi": 116.6
+    },
+    {
+        "number": 28,
+        "city": "Singapore, Singapore",
+        "colIndex": 85.9,
+        "rentIndex": 94,
+        "colAndRent": 89.8,
+        "groceries": 75.4,
+        "restaurant": 59.8,
+        "ppi": 85.9
+    },
+    {
+        "number": 29,
+        "city": "Odense, Denmark",
+        "colIndex": 84.5,
+        "rentIndex": 29.1,
+        "colAndRent": 58.1,
+        "groceries": 73.9,
+        "restaurant": 105,
+        "ppi": 84
+    },
+    {
+        "number": 30,
+        "city": "Oslo, Norway",
+        "colIndex": 84.2,
+        "rentIndex": 34,
+        "colAndRent": 60.3,
+        "groceries": 76.6,
+        "restaurant": 89.1,
+        "ppi": 96.6
+    },
+    {
+        "number": 31,
+        "city": "Los Angeles, CA, United States",
+        "colIndex": 84,
+        "rentIndex": 71.4,
+        "colAndRent": 78,
+        "groceries": 78.5,
+        "restaurant": 97.8,
+        "ppi": 116.1
+    },
+    {
+        "number": 32,
+        "city": "Copenhagen, Denmark",
+        "colIndex": 83.1,
+        "rentIndex": 45.9,
+        "colAndRent": 65.4,
+        "groceries": 66,
+        "restaurant": 100.5,
+        "ppi": 86.7
+    },
+    {
+        "number": 33,
+        "city": "Stavanger, Norway",
+        "colIndex": 83,
+        "rentIndex": 27.8,
+        "colAndRent": 56.7,
+        "groceries": 74.4,
+        "restaurant": 85,
+        "ppi": 82.8
+    },
+    {
+        "number": 34,
+        "city": "London, United Kingdom",
+        "colIndex": 82.8,
+        "rentIndex": 69.6,
+        "colAndRent": 76.5,
+        "groceries": 58.9,
+        "restaurant": 96.2,
+        "ppi": 83
+    },
+    {
+        "number": 35,
+        "city": "Chicago, IL, United States",
+        "colIndex": 82.6,
+        "rentIndex": 57.1,
+        "colAndRent": 70.5,
+        "groceries": 82.9,
+        "restaurant": 84,
+        "ppi": 134.9
+    },
+    {
+        "number": 36,
+        "city": "Brisbane, Australia",
+        "colIndex": 81.9,
+        "rentIndex": 41.2,
+        "colAndRent": 62.6,
+        "groceries": 76.6,
+        "restaurant": 85.3,
+        "ppi": 80.4
+    },
+    {
+        "number": 37,
+        "city": "Philadelphia, PA, United States",
+        "colIndex": 81.7,
+        "rentIndex": 47,
+        "colAndRent": 65.2,
+        "groceries": 78.4,
+        "restaurant": 86.4,
+        "ppi": 121.4
+    },
+    {
+        "number": 38,
+        "city": "Miami, FL, United States",
+        "colIndex": 81.7,
+        "rentIndex": 70.5,
+        "colAndRent": 76.3,
+        "groceries": 77.8,
+        "restaurant": 96.2,
+        "ppi": 84
+    },
+    {
+        "number": 39,
+        "city": "Charlotte, NC, United States",
+        "colIndex": 81.6,
+        "rentIndex": 60.7,
+        "colAndRent": 71.7,
+        "groceries": 79.7,
+        "restaurant": 81,
+        "ppi": 99.7
+    },
+    {
+        "number": 40,
+        "city": "Tromso, Norway",
+        "colIndex": 81.5,
+        "rentIndex": 31.1,
+        "colAndRent": 57.5,
+        "groceries": 74.6,
+        "restaurant": 90.1,
+        "ppi": 87.2
+    },
+    {
+        "number": 41,
+        "city": "Sydney, Australia",
+        "colIndex": 81.1,
+        "rentIndex": 60.2,
+        "colAndRent": 71.2,
+        "groceries": 76.7,
+        "restaurant": 78.7,
+        "ppi": 87.8
+    },
+    {
+        "number": 42,
+        "city": "Arhus, Denmark",
+        "colIndex": 80.9,
+        "rentIndex": 30.1,
+        "colAndRent": 56.7,
+        "groceries": 66.5,
+        "restaurant": 94.2,
+        "ppi": 100.6
+    },
+    {
+        "number": 43,
+        "city": "Perth, Australia",
+        "colIndex": 80.8,
+        "rentIndex": 40,
+        "colAndRent": 61.4,
+        "groceries": 75,
+        "restaurant": 85.3,
+        "ppi": 82.3
+    },
+    {
+        "number": 44,
+        "city": "Denver, CO, United States",
+        "colIndex": 80.8,
+        "rentIndex": 54.5,
+        "colAndRent": 68.3,
+        "groceries": 79.8,
+        "restaurant": 75.9,
+        "ppi": 126.6
+    },
+    {
+        "number": 45,
+        "city": "New Orleans, LA, United States",
+        "colIndex": 80.5,
+        "rentIndex": 45,
+        "colAndRent": 63.6,
+        "groceries": 78.4,
+        "restaurant": 81.6,
+        "ppi": 87.8
+    },
+    {
+        "number": 46,
+        "city": "Espoo, Finland",
+        "colIndex": 80.4,
+        "rentIndex": 30.2,
+        "colAndRent": 56.5,
+        "groceries": 71.7,
+        "restaurant": 91,
+        "ppi": 84.9
+    },
+    {
+        "number": 47,
+        "city": "Nashville, TN, United States",
+        "colIndex": 80.4,
+        "rentIndex": 54.3,
+        "colAndRent": 68,
+        "groceries": 80.1,
+        "restaurant": 80,
+        "ppi": 107.8
+    },
+    {
+        "number": 48,
+        "city": "Raleigh, NC, United States",
+        "colIndex": 80,
+        "rentIndex": 57,
+        "colAndRent": 69.1,
+        "groceries": 72,
+        "restaurant": 89.3,
+        "ppi": 98.9
+    },
+    {
+        "number": 49,
+        "city": "Darmstadt, Germany",
+        "colIndex": 79.8,
+        "rentIndex": 28.6,
+        "colAndRent": 55.5,
+        "groceries": 65.2,
+        "restaurant": 71.7,
+        "ppi": 90.6
+    },
+    {
+        "number": 50,
+        "city": "Minneapolis, MN, United States",
+        "colIndex": 79.8,
+        "rentIndex": 42.4,
+        "colAndRent": 62,
+        "groceries": 76.2,
+        "restaurant": 85.8,
+        "ppi": 110.9
+    },
+    {
+        "number": 51,
+        "city": "Tampa, FL, United States",
+        "colIndex": 79.7,
+        "rentIndex": 59,
+        "colAndRent": 69.9,
+        "groceries": 77.3,
+        "restaurant": 83.2,
+        "ppi": 111.2
+    },
+    {
+        "number": 52,
+        "city": "Tucson, AZ, United States",
+        "colIndex": 79.3,
+        "rentIndex": 38.6,
+        "colAndRent": 59.9,
+        "groceries": 74.1,
+        "restaurant": 94.2,
+        "ppi": 106.5
+    },
+    {
+        "number": 53,
+        "city": "Melbourne, Australia",
+        "colIndex": 79.3,
+        "rentIndex": 41.6,
+        "colAndRent": 61.4,
+        "groceries": 78.1,
+        "restaurant": 77.8,
+        "ppi": 84.8
+    },
+    {
+        "number": 54,
+        "city": "Buffalo, NY, United States",
+        "colIndex": 79.1,
+        "rentIndex": 40.1,
+        "colAndRent": 60.5,
+        "groceries": 76.4,
+        "restaurant": 78.4,
+        "ppi": 95.9
+    },
+    {
+        "number": 55,
+        "city": "Villach, Austria",
+        "colIndex": 78.5,
+        "rentIndex": 21,
+        "colAndRent": 51.1,
+        "groceries": 72.3,
+        "restaurant": 74.9,
+        "ppi": 57.9
+    },
+    {
+        "number": 56,
+        "city": "Atlanta, GA, United States",
+        "colIndex": 78.5,
+        "rentIndex": 51,
+        "colAndRent": 65.4,
+        "groceries": 76.2,
+        "restaurant": 75.9,
+        "ppi": 120.3
+    },
+    {
+        "number": 57,
+        "city": "Pittsburgh, PA, United States",
+        "colIndex": 78.1,
+        "rentIndex": 39.1,
+        "colAndRent": 59.5,
+        "groceries": 81.3,
+        "restaurant": 70.5,
+        "ppi": 114.5
+    },
+    {
+        "number": 58,
+        "city": "Victoria, Canada",
+        "colIndex": 78,
+        "rentIndex": 46.8,
+        "colAndRent": 63.2,
+        "groceries": 79.9,
+        "restaurant": 76.8,
+        "ppi": 73.3
+    },
+    {
+        "number": 59,
+        "city": "Dallas, TX, United States",
+        "colIndex": 77.8,
+        "rentIndex": 54,
+        "colAndRent": 66.5,
+        "groceries": 75.8,
+        "restaurant": 78.2,
+        "ppi": 111.5
+    },
+    {
+        "number": 60,
+        "city": "Paris, France",
+        "colIndex": 77.6,
+        "rentIndex": 41.6,
+        "colAndRent": 60.4,
+        "groceries": 76.1,
+        "restaurant": 73.5,
+        "ppi": 76.2
+    },
+    {
+        "number": 61,
+        "city": "Dublin, Ireland",
+        "colIndex": 77.3,
+        "rentIndex": 59.7,
+        "colAndRent": 68.9,
+        "groceries": 62.5,
+        "restaurant": 87.7,
+        "ppi": 71.4
+    },
+    {
+        "number": 62,
+        "city": "Austin, TX, United States",
+        "colIndex": 77.1,
+        "rentIndex": 65.4,
+        "colAndRent": 71.5,
+        "groceries": 70.7,
+        "restaurant": 86.5,
+        "ppi": 110.8
+    },
+    {
+        "number": 63,
+        "city": "Fort Worth, TX, United States",
+        "colIndex": 76.8,
+        "rentIndex": 39.6,
+        "colAndRent": 59.1,
+        "groceries": 82,
+        "restaurant": 69.4,
+        "ppi": 105
+    },
+    {
+        "number": 64,
+        "city": "Seoul, South Korea",
+        "colIndex": 76.3,
+        "rentIndex": 31.4,
+        "colAndRent": 55,
+        "groceries": 92.6,
+        "restaurant": 44,
+        "ppi": 81.2
+    },
+    {
+        "number": 65,
+        "city": "Auckland, New Zealand",
+        "colIndex": 76.3,
+        "rentIndex": 38.2,
+        "colAndRent": 58.2,
+        "groceries": 75,
+        "restaurant": 69.9,
+        "ppi": 83.8
+    },
+    {
+        "number": 66,
+        "city": "Wellington, New Zealand",
+        "colIndex": 76.1,
+        "rentIndex": 42.7,
+        "colAndRent": 60.2,
+        "groceries": 73.4,
+        "restaurant": 72.1,
+        "ppi": 67.2
+    },
+    {
+        "number": 67,
+        "city": "San Juan, Puerto Rico",
+        "colIndex": 76,
+        "rentIndex": 47.2,
+        "colAndRent": 62.3,
+        "groceries": 70.4,
+        "restaurant": 71.3,
+        "ppi": 43.6
+    },
+    {
+        "number": 68,
+        "city": "Aalborg, Denmark",
+        "colIndex": 75.9,
+        "rentIndex": 21.1,
+        "colAndRent": 49.8,
+        "groceries": 63.5,
+        "restaurant": 85.7,
+        "ppi": 109.4
+    },
+    {
+        "number": 69,
+        "city": "Salzburg, Austria",
+        "colIndex": 75.6,
+        "rentIndex": 29.1,
+        "colAndRent": 53.5,
+        "groceries": 70,
+        "restaurant": 68.9,
+        "ppi": 77.9
+    },
+    {
+        "number": 70,
+        "city": "Oshawa, Canada",
+        "colIndex": 75.6,
+        "rentIndex": 36.3,
+        "colAndRent": 56.9,
+        "groceries": 74.6,
+        "restaurant": 61.5,
+        "ppi": 113.5
+    },
+    {
+        "number": 71,
+        "city": "Cleveland, OH, United States",
+        "colIndex": 75.4,
+        "rentIndex": 38.6,
+        "colAndRent": 57.9,
+        "groceries": 76.5,
+        "restaurant": 68.9,
+        "ppi": 113.6
+    },
+    {
+        "number": 72,
+        "city": "Oklahoma City, OK, United States",
+        "colIndex": 75.3,
+        "rentIndex": 37.4,
+        "colAndRent": 57.3,
+        "groceries": 71,
+        "restaurant": 75,
+        "ppi": 90.1
+    },
+    {
+        "number": 73,
+        "city": "Eugene, OR, United States",
+        "colIndex": 75.2,
+        "rentIndex": 39.7,
+        "colAndRent": 58.3,
+        "groceries": 73.1,
+        "restaurant": 81.3,
+        "ppi": 80.9
+    },
+    {
+        "number": 74,
+        "city": "Nice, France",
+        "colIndex": 75.2,
+        "rentIndex": 28,
+        "colAndRent": 52.7,
+        "groceries": 71.1,
+        "restaurant": 81.7,
+        "ppi": 79.9
+    },
+    {
+        "number": 75,
+        "city": "Fort Lauderdale, FL, United States",
+        "colIndex": 74.8,
+        "rentIndex": 59.8,
+        "colAndRent": 67.7,
+        "groceries": 75.4,
+        "restaurant": 80.7,
+        "ppi": 112.1
+    },
+    {
+        "number": 76,
+        "city": "Phoenix, AZ, United States",
+        "colIndex": 74.6,
+        "rentIndex": 46.8,
+        "colAndRent": 61.4,
+        "groceries": 66.5,
+        "restaurant": 78.9,
+        "ppi": 126.9
+    },
+    {
+        "number": 77,
+        "city": "Lyon, France",
+        "colIndex": 74.6,
+        "rentIndex": 23.5,
+        "colAndRent": 50.3,
+        "groceries": 73,
+        "restaurant": 68.2,
+        "ppi": 87.5
+    },
+    {
+        "number": 78,
+        "city": "Fresno, CA, United States",
+        "colIndex": 74.5,
+        "rentIndex": 39.1,
+        "colAndRent": 57.6,
+        "groceries": 69.8,
+        "restaurant": 70.5,
+        "ppi": 122.1
+    },
+    {
+        "number": 79,
+        "city": "Vancouver, Canada",
+        "colIndex": 74.4,
+        "rentIndex": 54.5,
+        "colAndRent": 64.9,
+        "groceries": 73.6,
+        "restaurant": 78.4,
+        "ppi": 77.8
+    },
+    {
+        "number": 80,
+        "city": "Ottawa, Canada",
+        "colIndex": 74.3,
+        "rentIndex": 36.7,
+        "colAndRent": 56.4,
+        "groceries": 65,
+        "restaurant": 80.8,
+        "ppi": 89.6
+    },
+    {
+        "number": 81,
+        "city": "Orlando, FL, United States",
+        "colIndex": 74.3,
+        "rentIndex": 50.9,
+        "colAndRent": 63.2,
+        "groceries": 74.1,
+        "restaurant": 79.8,
+        "ppi": 113.5
+    },
+    {
+        "number": 82,
+        "city": "Tel Aviv-Yafo, Israel",
+        "colIndex": 74.2,
+        "rentIndex": 42.6,
+        "colAndRent": 59.2,
+        "groceries": 62.8,
+        "restaurant": 87.9,
+        "ppi": 77.3
+    },
+    {
+        "number": 83,
+        "city": "Munich, Germany",
+        "colIndex": 74,
+        "rentIndex": 39.7,
+        "colAndRent": 57.7,
+        "groceries": 62.4,
+        "restaurant": 72.8,
+        "ppi": 99.9
+    },
+    {
+        "number": 84,
+        "city": "Ramat Gan, Israel",
+        "colIndex": 73.9,
+        "rentIndex": 34.2,
+        "colAndRent": 55,
+        "groceries": 66.4,
+        "restaurant": 84.1,
+        "ppi": 67.9
+    },
+    {
+        "number": 85,
+        "city": "Las Vegas, NV, United States",
+        "colIndex": 73.5,
+        "rentIndex": 41.7,
+        "colAndRent": 58.4,
+        "groceries": 69.1,
+        "restaurant": 80.1,
+        "ppi": 92.9
+    },
+    {
+        "number": 86,
+        "city": "Calgary, Canada",
+        "colIndex": 73.5,
+        "rentIndex": 34.8,
+        "colAndRent": 55.1,
+        "groceries": 67.7,
+        "restaurant": 70.9,
+        "ppi": 94.3
+    },
+    {
+        "number": 87,
+        "city": "Spokane, WA, United States",
+        "colIndex": 73.4,
+        "rentIndex": 39.5,
+        "colAndRent": 57.2,
+        "groceries": 66.4,
+        "restaurant": 87.4,
+        "ppi": 99.3
+    },
+    {
+        "number": 88,
+        "city": "Reno, NV, United States",
+        "colIndex": 73.3,
+        "rentIndex": 43.3,
+        "colAndRent": 59,
+        "groceries": 72,
+        "restaurant": 74.8,
+        "ppi": 81.3
+    },
+    {
+        "number": 89,
+        "city": "Dusseldorf, Germany",
+        "colIndex": 73.3,
+        "rentIndex": 29.6,
+        "colAndRent": 52.5,
+        "groceries": 64.2,
+        "restaurant": 66.3,
+        "ppi": 93.4
+    },
+    {
+        "number": 90,
+        "city": "Toronto, Canada",
+        "colIndex": 73.3,
+        "rentIndex": 49.7,
+        "colAndRent": 62,
+        "groceries": 69,
+        "restaurant": 75.7,
+        "ppi": 82.7
+    },
+    {
+        "number": 91,
+        "city": "Milan, Italy",
+        "colIndex": 73,
+        "rentIndex": 40.8,
+        "colAndRent": 57.7,
+        "groceries": 63.3,
+        "restaurant": 79.8,
+        "ppi": 51.3
+    },
+    {
+        "number": 92,
+        "city": "Hamburg, Germany",
+        "colIndex": 72.5,
+        "rentIndex": 29.7,
+        "colAndRent": 52.1,
+        "groceries": 56.7,
+        "restaurant": 67.3,
+        "ppi": 99.9
+    },
+    {
+        "number": 93,
+        "city": "Hong Kong, Hong Kong (China)",
+        "colIndex": 72.4,
+        "rentIndex": 61,
+        "colAndRent": 67,
+        "groceries": 77.9,
+        "restaurant": 48.7,
+        "ppi": 68.8
+    },
+    {
+        "number": 94,
+        "city": "Milwaukee, WI, United States",
+        "colIndex": 72.4,
+        "rentIndex": 40.4,
+        "colAndRent": 57.2,
+        "groceries": 65.3,
+        "restaurant": 77.9,
+        "ppi": 138.5
+    },
+    {
+        "number": 95,
+        "city": "Nanaimo, BC, Canada",
+        "colIndex": 72.2,
+        "rentIndex": 35.2,
+        "colAndRent": 54.6,
+        "groceries": 73.1,
+        "restaurant": 71.2,
+        "ppi": 79.5
+    },
+    {
+        "number": 96,
+        "city": "Grand Rapids, MI, United States",
+        "colIndex": 72.1,
+        "rentIndex": 42.7,
+        "colAndRent": 58.1,
+        "groceries": 74.7,
+        "restaurant": 71.3,
+        "ppi": 144
+    },
+    {
+        "number": 97,
+        "city": "Cambridge, United Kingdom",
+        "colIndex": 72.1,
+        "rentIndex": 44.1,
+        "colAndRent": 58.8,
+        "groceries": 61.6,
+        "restaurant": 77,
+        "ppi": 95.3
+    },
+    {
+        "number": 98,
+        "city": "Columbus, OH, United States",
+        "colIndex": 72.1,
+        "rentIndex": 41.2,
+        "colAndRent": 57.4,
+        "groceries": 68.9,
+        "restaurant": 68.2,
+        "ppi": 105.7
+    },
+    {
+        "number": 99,
+        "city": "Indianapolis, IN, United States",
+        "colIndex": 71.9,
+        "rentIndex": 35.4,
+        "colAndRent": 54.5,
+        "groceries": 68.2,
+        "restaurant": 76.9,
+        "ppi": 125.8
+    },
+    {
+        "number": 100,
+        "city": "Albuquerque, NM, United States",
+        "colIndex": 71.8,
+        "rentIndex": 41.7,
+        "colAndRent": 57.5,
+        "groceries": 65.8,
+        "restaurant": 76.9,
+        "ppi": 136.6
+    },
+    {
+        "number": 101,
+        "city": "Luxembourg, Luxembourg",
+        "colIndex": 71.6,
+        "rentIndex": 47.1,
+        "colAndRent": 60,
+        "groceries": 63.6,
+        "restaurant": 85.6,
+        "ppi": 124.2
+    },
+    {
+        "number": 102,
+        "city": "Frankfurt, Germany",
+        "colIndex": 71.6,
+        "rentIndex": 33.3,
+        "colAndRent": 53.4,
+        "groceries": 57,
+        "restaurant": 63.8,
+        "ppi": 110.4
+    },
+    {
+        "number": 103,
+        "city": "Madison, WI, United States",
+        "colIndex": 71.5,
+        "rentIndex": 45.2,
+        "colAndRent": 59,
+        "groceries": 69.9,
+        "restaurant": 69.2,
+        "ppi": 94.6
+    },
+    {
+        "number": 104,
+        "city": "Freiburg im Breisgau, Germany",
+        "colIndex": 71.5,
+        "rentIndex": 29.3,
+        "colAndRent": 51.4,
+        "groceries": 60.3,
+        "restaurant": 63.4,
+        "ppi": 95.4
+    },
+    {
+        "number": 105,
+        "city": "Nijmegen, Netherlands",
+        "colIndex": 71.4,
+        "rentIndex": 30.6,
+        "colAndRent": 52,
+        "groceries": 58.1,
+        "restaurant": 70.9,
+        "ppi": 94.4
+    },
+    {
+        "number": 106,
+        "city": "Detroit, MI, United States",
+        "colIndex": 71.4,
+        "rentIndex": 43.1,
+        "colAndRent": 57.9,
+        "groceries": 69.2,
+        "restaurant": 62.7,
+        "ppi": 112.9
+    },
+    {
+        "number": 107,
+        "city": "Edmonton, Canada",
+        "colIndex": 71.3,
+        "rentIndex": 25.5,
+        "colAndRent": 49.5,
+        "groceries": 66.5,
+        "restaurant": 74.2,
+        "ppi": 96.1
+    },
+    {
+        "number": 108,
+        "city": "Valletta, Malta",
+        "colIndex": 71.2,
+        "rentIndex": 33.8,
+        "colAndRent": 53.4,
+        "groceries": 59.3,
+        "restaurant": 74.6,
+        "ppi": 42.1
+    },
+    {
+        "number": 109,
+        "city": "Saint Louis, MO, United States",
+        "colIndex": 71.2,
+        "rentIndex": 35.7,
+        "colAndRent": 54.3,
+        "groceries": 70,
+        "restaurant": 71.6,
+        "ppi": 103.2
+    },
+    {
+        "number": 110,
+        "city": "Innsbruck, Austria",
+        "colIndex": 71.2,
+        "rentIndex": 29.8,
+        "colAndRent": 51.5,
+        "groceries": 62.7,
+        "restaurant": 65.6,
+        "ppi": 75.6
+    },
+    {
+        "number": 111,
+        "city": "St. John's, Newfoundland and Labrador, Canada",
+        "colIndex": 71.2,
+        "rentIndex": 21.5,
+        "colAndRent": 47.5,
+        "groceries": 70.4,
+        "restaurant": 64.1,
+        "ppi": 96.5
+    },
+    {
+        "number": 112,
+        "city": "Berlin, Germany",
+        "colIndex": 71.1,
+        "rentIndex": 37.1,
+        "colAndRent": 54.9,
+        "groceries": 58.3,
+        "restaurant": 62.3,
+        "ppi": 93.4
+    },
+    {
+        "number": 113,
+        "city": "Netanya, Israel",
+        "colIndex": 71.1,
+        "rentIndex": 27.6,
+        "colAndRent": 50.3,
+        "groceries": 58.4,
+        "restaurant": 86.4,
+        "ppi": 64.9
+    },
+    {
+        "number": 114,
+        "city": "Brussels, Belgium",
+        "colIndex": 70.8,
+        "rentIndex": 30.5,
+        "colAndRent": 51.6,
+        "groceries": 60.5,
+        "restaurant": 80.2,
+        "ppi": 96.1
+    },
+    {
+        "number": 115,
+        "city": "Helsinki, Finland",
+        "colIndex": 70.7,
+        "rentIndex": 29.2,
+        "colAndRent": 50.9,
+        "groceries": 61.6,
+        "restaurant": 77.9,
+        "ppi": 103.6
+    },
+    {
+        "number": 116,
+        "city": "Boise, ID, United States",
+        "colIndex": 70.7,
+        "rentIndex": 41.7,
+        "colAndRent": 56.9,
+        "groceries": 64.4,
+        "restaurant": 74.7,
+        "ppi": 97.6
+    },
+    {
+        "number": 117,
+        "city": "Linz, Austria",
+        "colIndex": 70.6,
+        "rentIndex": 23.1,
+        "colAndRent": 48,
+        "groceries": 64.7,
+        "restaurant": 66.5,
+        "ppi": 83.4
+    },
+    {
+        "number": 118,
+        "city": "Quebec City, Canada",
+        "colIndex": 70.4,
+        "rentIndex": 22.2,
+        "colAndRent": 47.5,
+        "groceries": 65.6,
+        "restaurant": 76.5,
+        "ppi": 91.7
+    },
+    {
+        "number": 119,
+        "city": "Halifax, Canada",
+        "colIndex": 70.4,
+        "rentIndex": 34.7,
+        "colAndRent": 53.4,
+        "groceries": 70.1,
+        "restaurant": 68.4,
+        "ppi": 81.6
+    },
+    {
+        "number": 120,
+        "city": "Jacksonville, FL, United States",
+        "colIndex": 70.1,
+        "rentIndex": 40.8,
+        "colAndRent": 56.1,
+        "groceries": 71.7,
+        "restaurant": 74.6,
+        "ppi": 124.5
+    },
+    {
+        "number": 121,
+        "city": "Cologne, Germany",
+        "colIndex": 69.7,
+        "rentIndex": 27.9,
+        "colAndRent": 49.8,
+        "groceries": 56.3,
+        "restaurant": 59.6,
+        "ppi": 85
+    },
+    {
+        "number": 122,
+        "city": "Guildford, United Kingdom",
+        "colIndex": 69.5,
+        "rentIndex": 47.2,
+        "colAndRent": 58.9,
+        "groceries": 59.8,
+        "restaurant": 76,
+        "ppi": 81
+    },
+    {
+        "number": 123,
+        "city": "Turku, Finland",
+        "colIndex": 69.5,
+        "rentIndex": 19.9,
+        "colAndRent": 45.9,
+        "groceries": 59.3,
+        "restaurant": 78.1,
+        "ppi": 95
+    },
+    {
+        "number": 124,
+        "city": "Houston, TX, United States",
+        "colIndex": 69.4,
+        "rentIndex": 43.2,
+        "colAndRent": 57,
+        "groceries": 64.3,
+        "restaurant": 73.9,
+        "ppi": 147
+    },
+    {
+        "number": 125,
+        "city": "Stockholm, Sweden",
+        "colIndex": 69.4,
+        "rentIndex": 33.4,
+        "colAndRent": 52.3,
+        "groceries": 61.9,
+        "restaurant": 68.5,
+        "ppi": 92
+    },
+    {
+        "number": 126,
+        "city": "Graz, Austria",
+        "colIndex": 69.4,
+        "rentIndex": 21.8,
+        "colAndRent": 46.7,
+        "groceries": 62.5,
+        "restaurant": 64.8,
+        "ppi": 83
+    },
+    {
+        "number": 127,
+        "city": "Toulouse, France",
+        "colIndex": 69.3,
+        "rentIndex": 21.8,
+        "colAndRent": 46.7,
+        "groceries": 68,
+        "restaurant": 67.1,
+        "ppi": 91
+    },
+    {
+        "number": 128,
+        "city": "Saint Petersburg, FL, United States",
+        "colIndex": 69.3,
+        "rentIndex": 56,
+        "colAndRent": 63,
+        "groceries": 71.1,
+        "restaurant": 61.7,
+        "ppi": 117.8
+    },
+    {
+        "number": 129,
+        "city": "Markham, Canada",
+        "colIndex": 69.3,
+        "rentIndex": 45.5,
+        "colAndRent": 57.9,
+        "groceries": 61.5,
+        "restaurant": 80.4,
+        "ppi": 87.9
+    },
+    {
+        "number": 130,
+        "city": "Oulu, Finland",
+        "colIndex": 69.3,
+        "rentIndex": 19.8,
+        "colAndRent": 45.7,
+        "groceries": 61.2,
+        "restaurant": 67.4,
+        "ppi": 96.4
+    },
+    {
+        "number": 131,
+        "city": "Amsterdam, Netherlands",
+        "colIndex": 69.2,
+        "rentIndex": 46.6,
+        "colAndRent": 58.4,
+        "groceries": 56.3,
+        "restaurant": 70.2,
+        "ppi": 108.2
+    },
+    {
+        "number": 132,
+        "city": "Kansas City, MO, United States",
+        "colIndex": 69.2,
+        "rentIndex": 40.8,
+        "colAndRent": 55.7,
+        "groceries": 64.2,
+        "restaurant": 68.7,
+        "ppi": 108.1
+    },
+    {
+        "number": 133,
+        "city": "Cork, Ireland",
+        "colIndex": 69.2,
+        "rentIndex": 41.5,
+        "colAndRent": 56,
+        "groceries": 55.8,
+        "restaurant": 74.9,
+        "ppi": 86.4
+    },
+    {
+        "number": 134,
+        "city": "Brighton, United Kingdom",
+        "colIndex": 69.2,
+        "rentIndex": 44,
+        "colAndRent": 57.2,
+        "groceries": 55.1,
+        "restaurant": 74.5,
+        "ppi": 79.4
+    },
+    {
+        "number": 135,
+        "city": "Maastricht, Netherlands",
+        "colIndex": 69.1,
+        "rentIndex": 29.6,
+        "colAndRent": 50.3,
+        "groceries": 58.3,
+        "restaurant": 69.3,
+        "ppi": 99.1
+    },
+    {
+        "number": 136,
+        "city": "Beersheba, Israel",
+        "colIndex": 69,
+        "rentIndex": 16.9,
+        "colAndRent": 44.2,
+        "groceries": 61.6,
+        "restaurant": 65.5,
+        "ppi": 80.9
+    },
+    {
+        "number": 137,
+        "city": "Dortmund, Germany",
+        "colIndex": 69,
+        "rentIndex": 19.5,
+        "colAndRent": 45.4,
+        "groceries": 54.2,
+        "restaurant": 62.2,
+        "ppi": 81.8
+    },
+    {
+        "number": 138,
+        "city": "Louisville, KY, United States",
+        "colIndex": 68.9,
+        "rentIndex": 32.4,
+        "colAndRent": 51.5,
+        "groceries": 67.4,
+        "restaurant": 70.2,
+        "ppi": 136.7
+    },
+    {
+        "number": 139,
+        "city": "St.Catharines, Canada",
+        "colIndex": 68.9,
+        "rentIndex": 30.2,
+        "colAndRent": 50.5,
+        "groceries": 64.9,
+        "restaurant": 69.5,
+        "ppi": 116
+    },
+    {
+        "number": 140,
+        "city": "Hanover, Germany",
+        "colIndex": 68.9,
+        "rentIndex": 21.8,
+        "colAndRent": 46.5,
+        "groceries": 56.6,
+        "restaurant": 61.3,
+        "ppi": 87.7
+    },
+    {
+        "number": 141,
+        "city": "Hamilton, Canada",
+        "colIndex": 68.9,
+        "rentIndex": 35.4,
+        "colAndRent": 52.9,
+        "groceries": 67.2,
+        "restaurant": 65.4,
+        "ppi": 83.6
+    },
+    {
+        "number": 142,
+        "city": "Florence, Italy",
+        "colIndex": 68.9,
+        "rentIndex": 25.7,
+        "colAndRent": 48.3,
+        "groceries": 62.2,
+        "restaurant": 67.5,
+        "ppi": 52.8
+    },
+    {
+        "number": 143,
+        "city": "Montpellier, France",
+        "colIndex": 68.8,
+        "rentIndex": 29.9,
+        "colAndRent": 50.3,
+        "groceries": 67.7,
+        "restaurant": 63,
+        "ppi": 87.3
+    },
+    {
+        "number": 144,
+        "city": "Bonn, Germany",
+        "colIndex": 68.8,
+        "rentIndex": 26.9,
+        "colAndRent": 48.8,
+        "groceries": 48.5,
+        "restaurant": 69.8,
+        "ppi": 78.4
+    },
+    {
+        "number": 145,
+        "city": "Haifa, Israel",
+        "colIndex": 68.8,
+        "rentIndex": 19.2,
+        "colAndRent": 45.2,
+        "groceries": 58.8,
+        "restaurant": 75.3,
+        "ppi": 86.7
+    },
+    {
+        "number": 146,
+        "city": "Heidelberg, Germany",
+        "colIndex": 68.8,
+        "rentIndex": 29.9,
+        "colAndRent": 50.3,
+        "groceries": 51.7,
+        "restaurant": 66.2,
+        "ppi": 102.5
+    },
+    {
+        "number": 147,
+        "city": "Bordeaux, France",
+        "colIndex": 68.7,
+        "rentIndex": 22,
+        "colAndRent": 46.5,
+        "groceries": 65.6,
+        "restaurant": 70.7,
+        "ppi": 81.9
+    },
+    {
+        "number": 148,
+        "city": "Antwerp, Belgium",
+        "colIndex": 68.6,
+        "rentIndex": 24.2,
+        "colAndRent": 47.5,
+        "groceries": 54.3,
+        "restaurant": 81.6,
+        "ppi": 82.1
+    },
+    {
+        "number": 149,
+        "city": "Kamloops, Canada",
+        "colIndex": 68.6,
+        "rentIndex": 34.2,
+        "colAndRent": 52.2,
+        "groceries": 70.7,
+        "restaurant": 62.7,
+        "ppi": 85.7
+    },
+    {
+        "number": 150,
+        "city": "Grenoble, France",
+        "colIndex": 68.6,
+        "rentIndex": 19.4,
+        "colAndRent": 45.2,
+        "groceries": 65.1,
+        "restaurant": 63.2,
+        "ppi": 82.8
+    },
+    {
+        "number": 151,
+        "city": "Christchurch, New Zealand",
+        "colIndex": 68.6,
+        "rentIndex": 29,
+        "colAndRent": 49.7,
+        "groceries": 68.9,
+        "restaurant": 67.9,
+        "ppi": 101.4
+    },
+    {
+        "number": 152,
+        "city": "Karlsruhe, Germany",
+        "colIndex": 68.5,
+        "rentIndex": 24.6,
+        "colAndRent": 47.6,
+        "groceries": 55.7,
+        "restaurant": 62.6,
+        "ppi": 104.9
+    },
+    {
+        "number": 153,
+        "city": "Winnipeg, Canada",
+        "colIndex": 68.4,
+        "rentIndex": 26.3,
+        "colAndRent": 48.4,
+        "groceries": 67.1,
+        "restaurant": 61.7,
+        "ppi": 74.7
+    },
+    {
+        "number": 154,
+        "city": "Breda, Netherlands",
+        "colIndex": 68.3,
+        "rentIndex": 27.9,
+        "colAndRent": 49.1,
+        "groceries": 57.7,
+        "restaurant": 70.4,
+        "ppi": 126.2
+    },
+    {
+        "number": 155,
+        "city": "Fredericton, Canada",
+        "colIndex": 68.2,
+        "rentIndex": 23.8,
+        "colAndRent": 47.1,
+        "groceries": 66.2,
+        "restaurant": 67.7,
+        "ppi": 108.5
+    },
+    {
+        "number": 156,
+        "city": "San Antonio, TX, United States",
+        "colIndex": 68.2,
+        "rentIndex": 41.8,
+        "colAndRent": 55.6,
+        "groceries": 60.8,
+        "restaurant": 75.7,
+        "ppi": 124.9
+    },
+    {
+        "number": 157,
+        "city": "Reading, United Kingdom",
+        "colIndex": 67.9,
+        "rentIndex": 35.8,
+        "colAndRent": 52.6,
+        "groceries": 53.4,
+        "restaurant": 90.5,
+        "ppi": 102.2
+    },
+    {
+        "number": 158,
+        "city": "Salt Lake City, UT, United States",
+        "colIndex": 67.9,
+        "rentIndex": 43.3,
+        "colAndRent": 56.2,
+        "groceries": 62.1,
+        "restaurant": 74.5,
+        "ppi": 123.5
+    },
+    {
+        "number": 159,
+        "city": "Oxford, United Kingdom",
+        "colIndex": 67.7,
+        "rentIndex": 45.3,
+        "colAndRent": 57.1,
+        "groceries": 57.7,
+        "restaurant": 66.5,
+        "ppi": 96.6
+    },
+    {
+        "number": 160,
+        "city": "Jerusalem, Israel",
+        "colIndex": 67.7,
+        "rentIndex": 34.7,
+        "colAndRent": 52,
+        "groceries": 57.4,
+        "restaurant": 76.7,
+        "ppi": 76.3
+    },
+    {
+        "number": 161,
+        "city": "Petah Tikva, Israel",
+        "colIndex": 67.6,
+        "rentIndex": 24,
+        "colAndRent": 46.8,
+        "groceries": 58.5,
+        "restaurant": 73.4,
+        "ppi": 75
+    },
+    {
+        "number": 162,
+        "city": "Gent, Belgium",
+        "colIndex": 67.5,
+        "rentIndex": 24.2,
+        "colAndRent": 46.9,
+        "groceries": 55.5,
+        "restaurant": 78.8,
+        "ppi": 83.2
+    },
+    {
+        "number": 163,
+        "city": "Saskatoon, Canada",
+        "colIndex": 67.3,
+        "rentIndex": 24.7,
+        "colAndRent": 47,
+        "groceries": 63.1,
+        "restaurant": 62.5,
+        "ppi": 95.5
+    },
+    {
+        "number": 164,
+        "city": "Groningen, Netherlands",
+        "colIndex": 67.2,
+        "rentIndex": 22.2,
+        "colAndRent": 45.8,
+        "groceries": 55.5,
+        "restaurant": 72.9,
+        "ppi": 98.4
+    },
+    {
+        "number": 165,
+        "city": "Utrecht, Netherlands",
+        "colIndex": 67.1,
+        "rentIndex": 33.4,
+        "colAndRent": 51,
+        "groceries": 54.1,
+        "restaurant": 71.1,
+        "ppi": 111.7
+    },
+    {
+        "number": 166,
+        "city": "Stuttgart, Germany",
+        "colIndex": 67.1,
+        "rentIndex": 29.4,
+        "colAndRent": 49.1,
+        "groceries": 56.4,
+        "restaurant": 61.8,
+        "ppi": 114.2
+    },
+    {
+        "number": 167,
+        "city": "London, Canada",
+        "colIndex": 67,
+        "rentIndex": 35.5,
+        "colAndRent": 52,
+        "groceries": 62.7,
+        "restaurant": 67.7,
+        "ppi": 109.4
+    },
+    {
+        "number": 168,
+        "city": "Essen, Germany",
+        "colIndex": 67,
+        "rentIndex": 19,
+        "colAndRent": 44.1,
+        "groceries": 50,
+        "restaurant": 60.4,
+        "ppi": 103.2
+    },
+    {
+        "number": 169,
+        "city": "Surrey, Canada",
+        "colIndex": 66.9,
+        "rentIndex": 37.4,
+        "colAndRent": 52.9,
+        "groceries": 64.4,
+        "restaurant": 60.1,
+        "ppi": 113.2
+    },
+    {
+        "number": 170,
+        "city": "Wiesbaden, Germany",
+        "colIndex": 66.9,
+        "rentIndex": 24,
+        "colAndRent": 46.5,
+        "groceries": 54.1,
+        "restaurant": 57.8,
+        "ppi": 90.3
+    },
+    {
+        "number": 171,
+        "city": "Marseille, France",
+        "colIndex": 66.9,
+        "rentIndex": 22.7,
+        "colAndRent": 45.8,
+        "groceries": 62.7,
+        "restaurant": 63.7,
+        "ppi": 81.2
+    },
+    {
+        "number": 172,
+        "city": "Eindhoven, Netherlands",
+        "colIndex": 66.9,
+        "rentIndex": 33.1,
+        "colAndRent": 50.8,
+        "groceries": 53.5,
+        "restaurant": 69.6,
+        "ppi": 115.7
+    },
+    {
+        "number": 173,
+        "city": "Gold Coast, Australia",
+        "colIndex": 66.8,
+        "rentIndex": 38.8,
+        "colAndRent": 53.5,
+        "groceries": 62.9,
+        "restaurant": 66.2,
+        "ppi": 121
+    },
+    {
+        "number": 174,
+        "city": "Leeds, United Kingdom",
+        "colIndex": 66.8,
+        "rentIndex": 28.8,
+        "colAndRent": 48.7,
+        "groceries": 53.4,
+        "restaurant": 73.2,
+        "ppi": 91.9
+    },
+    {
+        "number": 175,
+        "city": "Montreal, Canada",
+        "colIndex": 66.7,
+        "rentIndex": 29.6,
+        "colAndRent": 49,
+        "groceries": 65.5,
+        "restaurant": 74,
+        "ppi": 94
+    },
+    {
+        "number": 176,
+        "city": "Kingston, Canada",
+        "colIndex": 66.6,
+        "rentIndex": 35.1,
+        "colAndRent": 51.6,
+        "groceries": 66.9,
+        "restaurant": 63.9,
+        "ppi": 97.6
+    },
+    {
+        "number": 177,
+        "city": "Enschede, Netherlands",
+        "colIndex": 66.6,
+        "rentIndex": 25.7,
+        "colAndRent": 47.1,
+        "groceries": 58,
+        "restaurant": 67.8,
+        "ppi": 109
+    },
+    {
+        "number": 178,
+        "city": "Bologna, Italy",
+        "colIndex": 66.6,
+        "rentIndex": 24.3,
+        "colAndRent": 46.4,
+        "groceries": 57.2,
+        "restaurant": 70,
+        "ppi": 59.2
+    },
+    {
+        "number": 179,
+        "city": "Hobart, Australia",
+        "colIndex": 66.5,
+        "rentIndex": 24.8,
+        "colAndRent": 46.7,
+        "groceries": 60.9,
+        "restaurant": 69.8,
+        "ppi": 115.8
+    },
+    {
+        "number": 180,
+        "city": "Nottingham, United Kingdom",
+        "colIndex": 66.4,
+        "rentIndex": 24.9,
+        "colAndRent": 46.7,
+        "groceries": 59,
+        "restaurant": 63.8,
+        "ppi": 87.2
+    },
+    {
+        "number": 181,
+        "city": "Glasgow, United Kingdom",
+        "colIndex": 66.4,
+        "rentIndex": 27.6,
+        "colAndRent": 47.9,
+        "groceries": 52.7,
+        "restaurant": 73,
+        "ppi": 97
+    },
+    {
+        "number": 182,
+        "city": "Delft, Netherlands",
+        "colIndex": 66.3,
+        "rentIndex": 29,
+        "colAndRent": 48.6,
+        "groceries": 58.3,
+        "restaurant": 67.5,
+        "ppi": 102.9
+    },
+    {
+        "number": 183,
+        "city": "Trieste, Italy",
+        "colIndex": 66.3,
+        "rentIndex": 17.5,
+        "colAndRent": 43.1,
+        "groceries": 57.9,
+        "restaurant": 71.2,
+        "ppi": 61.5
+    },
+    {
+        "number": 184,
+        "city": "Kitchener, Canada",
+        "colIndex": 66.3,
+        "rentIndex": 36.6,
+        "colAndRent": 52.2,
+        "groceries": 66.3,
+        "restaurant": 67.4,
+        "ppi": 102.8
+    },
+    {
+        "number": 185,
+        "city": "Manchester, United Kingdom",
+        "colIndex": 66.3,
+        "rentIndex": 31.7,
+        "colAndRent": 49.8,
+        "groceries": 52.5,
+        "restaurant": 75.8,
+        "ppi": 91.2
+    },
+    {
+        "number": 186,
+        "city": "Nuremberg, Germany",
+        "colIndex": 66.1,
+        "rentIndex": 22.7,
+        "colAndRent": 45.5,
+        "groceries": 54.3,
+        "restaurant": 55.9,
+        "ppi": 101.6
+    },
+    {
+        "number": 187,
+        "city": "Macao, Macao (China)",
+        "colIndex": 66.1,
+        "rentIndex": 31.4,
+        "colAndRent": 49.6,
+        "groceries": 73.5,
+        "restaurant": 48,
+        "ppi": 73.6
+    },
+    {
+        "number": 188,
+        "city": "Red Deer, Canada",
+        "colIndex": 66.1,
+        "rentIndex": 23.4,
+        "colAndRent": 45.8,
+        "groceries": 63.2,
+        "restaurant": 60.3,
+        "ppi": 105.9
+    },
+    {
+        "number": 189,
+        "city": "Dubai, United Arab Emirates",
+        "colIndex": 66.1,
+        "rentIndex": 49.4,
+        "colAndRent": 58.2,
+        "groceries": 48.7,
+        "restaurant": 71.1,
+        "ppi": 117.8
+    },
+    {
+        "number": 190,
+        "city": "Kelowna, Canada",
+        "colIndex": 66.1,
+        "rentIndex": 37.4,
+        "colAndRent": 52.4,
+        "groceries": 66.6,
+        "restaurant": 61.2,
+        "ppi": 90.8
+    },
+    {
+        "number": 191,
+        "city": "Bremen, Germany",
+        "colIndex": 66,
+        "rentIndex": 19.6,
+        "colAndRent": 43.9,
+        "groceries": 57.6,
+        "restaurant": 57.9,
+        "ppi": 90.9
+    },
+    {
+        "number": 192,
+        "city": "Nantes, France",
+        "colIndex": 66,
+        "rentIndex": 23.7,
+        "colAndRent": 45.9,
+        "groceries": 64.4,
+        "restaurant": 60.9,
+        "ppi": 72.5
+    },
+    {
+        "number": 193,
+        "city": "Parma, Italy",
+        "colIndex": 66,
+        "rentIndex": 17.3,
+        "colAndRent": 42.8,
+        "groceries": 55.6,
+        "restaurant": 69.2,
+        "ppi": 64
+    },
+    {
+        "number": 194,
+        "city": "Bristol, United Kingdom",
+        "colIndex": 65.9,
+        "rentIndex": 37.2,
+        "colAndRent": 52.2,
+        "groceries": 51,
+        "restaurant": 75.3,
+        "ppi": 89
+    },
+    {
+        "number": 195,
+        "city": "Galway, Ireland",
+        "colIndex": 65.9,
+        "rentIndex": 38.8,
+        "colAndRent": 53,
+        "groceries": 57.5,
+        "restaurant": 70.9,
+        "ppi": 80.5
+    },
+    {
+        "number": 196,
+        "city": "Knoxville, TN, United States",
+        "colIndex": 65.8,
+        "rentIndex": 41.9,
+        "colAndRent": 54.4,
+        "groceries": 61.1,
+        "restaurant": 62.2,
+        "ppi": 121.1
+    },
+    {
+        "number": 197,
+        "city": "Guelph, Canada",
+        "colIndex": 65.8,
+        "rentIndex": 40.2,
+        "colAndRent": 53.6,
+        "groceries": 63.7,
+        "restaurant": 70.3,
+        "ppi": 102
+    },
+    {
+        "number": 198,
+        "city": "Rome, Italy",
+        "colIndex": 65.7,
+        "rentIndex": 31.3,
+        "colAndRent": 49.3,
+        "groceries": 58.9,
+        "restaurant": 67.4,
+        "ppi": 59.2
+    },
+    {
+        "number": 199,
+        "city": "Mannheim, Germany",
+        "colIndex": 65.6,
+        "rentIndex": 21.5,
+        "colAndRent": 44.6,
+        "groceries": 53.2,
+        "restaurant": 53.8,
+        "ppi": 105.1
+    },
+    {
+        "number": 200,
+        "city": "Genoa, Italy",
+        "colIndex": 65.6,
+        "rentIndex": 18,
+        "colAndRent": 42.9,
+        "groceries": 60,
+        "restaurant": 67.7,
+        "ppi": 56.9
+    },
+    {
+        "number": 201,
+        "city": "Hamilton, New Zealand",
+        "colIndex": 65.5,
+        "rentIndex": 23.6,
+        "colAndRent": 45.6,
+        "groceries": 63.7,
+        "restaurant": 66.9,
+        "ppi": 83.1
+    },
+    {
+        "number": 202,
+        "city": "Liverpool, United Kingdom",
+        "colIndex": 65.4,
+        "rentIndex": 25.8,
+        "colAndRent": 46.6,
+        "groceries": 52.6,
+        "restaurant": 73,
+        "ppi": 77.7
+    },
+    {
+        "number": 203,
+        "city": "Vicenza, Italy",
+        "colIndex": 65.4,
+        "rentIndex": 17.3,
+        "colAndRent": 42.5,
+        "groceries": 56.7,
+        "restaurant": 59,
+        "ppi": 61
+    },
+    {
+        "number": 204,
+        "city": "Lille, France",
+        "colIndex": 65.3,
+        "rentIndex": 23.7,
+        "colAndRent": 45.5,
+        "groceries": 58.7,
+        "restaurant": 64.7,
+        "ppi": 81.7
+    },
+    {
+        "number": 205,
+        "city": "Leuven, Belgium",
+        "colIndex": 65.2,
+        "rentIndex": 24.5,
+        "colAndRent": 45.8,
+        "groceries": 54.9,
+        "restaurant": 69.1,
+        "ppi": 90.7
+    },
+    {
+        "number": 206,
+        "city": "Memphis, TN, United States",
+        "colIndex": 65.2,
+        "rentIndex": 35.1,
+        "colAndRent": 50.9,
+        "groceries": 62.3,
+        "restaurant": 67.1,
+        "ppi": 139.4
+    },
+    {
+        "number": 207,
+        "city": "Vienna, Austria",
+        "colIndex": 65,
+        "rentIndex": 24.9,
+        "colAndRent": 45.9,
+        "groceries": 57.9,
+        "restaurant": 65.8,
+        "ppi": 104
+    },
+    {
+        "number": 208,
+        "city": "Plymouth, United Kingdom",
+        "colIndex": 64.8,
+        "rentIndex": 25.3,
+        "colAndRent": 46,
+        "groceries": 50.7,
+        "restaurant": 75.6,
+        "ppi": 56.5
+    },
+    {
+        "number": 209,
+        "city": "Edinburgh, United Kingdom",
+        "colIndex": 64.7,
+        "rentIndex": 35.7,
+        "colAndRent": 50.9,
+        "groceries": 50.7,
+        "restaurant": 75.1,
+        "ppi": 85
+    },
+    {
+        "number": 210,
+        "city": "Rotterdam, Netherlands",
+        "colIndex": 64.7,
+        "rentIndex": 34.5,
+        "colAndRent": 50.3,
+        "groceries": 53.3,
+        "restaurant": 65.5,
+        "ppi": 115
+    },
+    {
+        "number": 211,
+        "city": "Bournemouth, United Kingdom",
+        "colIndex": 64.7,
+        "rentIndex": 32.2,
+        "colAndRent": 49.2,
+        "groceries": 50.3,
+        "restaurant": 85.7,
+        "ppi": 75.1
+    },
+    {
+        "number": 212,
+        "city": "Augsburg, Germany",
+        "colIndex": 64.6,
+        "rentIndex": 22.6,
+        "colAndRent": 44.6,
+        "groceries": 47.2,
+        "restaurant": 61.3,
+        "ppi": 97.3
+    },
+    {
+        "number": 213,
+        "city": "Trento, Italy",
+        "colIndex": 64.5,
+        "rentIndex": 25.5,
+        "colAndRent": 45.9,
+        "groceries": 56.2,
+        "restaurant": 66.3,
+        "ppi": 60
+    },
+    {
+        "number": 214,
+        "city": "Richmond, VA, United States",
+        "colIndex": 64.4,
+        "rentIndex": 41.2,
+        "colAndRent": 53.4,
+        "groceries": 60.4,
+        "restaurant": 73.4,
+        "ppi": 139.3
+    },
+    {
+        "number": 215,
+        "city": "Aachen, Germany",
+        "colIndex": 64.4,
+        "rentIndex": 19.5,
+        "colAndRent": 43.1,
+        "groceries": 52.7,
+        "restaurant": 53.3,
+        "ppi": 108.3
+    },
+    {
+        "number": 216,
+        "city": "Brescia, Italy",
+        "colIndex": 64.4,
+        "rentIndex": 20.1,
+        "colAndRent": 43.3,
+        "groceries": 58.1,
+        "restaurant": 64,
+        "ppi": 64.1
+    },
+    {
+        "number": 217,
+        "city": "Lund, Sweden",
+        "colIndex": 64.2,
+        "rentIndex": 21.7,
+        "colAndRent": 44,
+        "groceries": 58.1,
+        "restaurant": 64.3,
+        "ppi": 96.9
+    },
+    {
+        "number": 218,
+        "city": "Limerick, Ireland",
+        "colIndex": 64.2,
+        "rentIndex": 36.3,
+        "colAndRent": 50.9,
+        "groceries": 54.6,
+        "restaurant": 70.7,
+        "ppi": 89.9
+    },
+    {
+        "number": 219,
+        "city": "Dundee, United Kingdom",
+        "colIndex": 64.1,
+        "rentIndex": 22,
+        "colAndRent": 44.1,
+        "groceries": 53.8,
+        "restaurant": 68.1,
+        "ppi": 86.7
+    },
+    {
+        "number": 220,
+        "city": "Cincinnati, OH, United States",
+        "colIndex": 64,
+        "rentIndex": 39.5,
+        "colAndRent": 52.3,
+        "groceries": 63.4,
+        "restaurant": 60.2,
+        "ppi": 111
+    },
+    {
+        "number": 221,
+        "city": "Bergamo, Italy",
+        "colIndex": 63.6,
+        "rentIndex": 21.7,
+        "colAndRent": 43.7,
+        "groceries": 54.8,
+        "restaurant": 63.8,
+        "ppi": 71.7
+    },
+    {
+        "number": 222,
+        "city": "Tampere, Finland",
+        "colIndex": 63.6,
+        "rentIndex": 21.2,
+        "colAndRent": 43.4,
+        "groceries": 53.6,
+        "restaurant": 70.1,
+        "ppi": 94.8
+    },
+    {
+        "number": 223,
+        "city": "Derby, United Kingdom",
+        "colIndex": 63.6,
+        "rentIndex": 21.8,
+        "colAndRent": 43.7,
+        "groceries": 52.5,
+        "restaurant": 71.9,
+        "ppi": 108.1
+    },
+    {
+        "number": 224,
+        "city": "Belfast, United Kingdom",
+        "colIndex": 63.6,
+        "rentIndex": 26.5,
+        "colAndRent": 45.9,
+        "groceries": 52.1,
+        "restaurant": 76.3,
+        "ppi": 88.4
+    },
+    {
+        "number": 225,
+        "city": "Sheffield, United Kingdom",
+        "colIndex": 63.5,
+        "rentIndex": 27.2,
+        "colAndRent": 46.2,
+        "groceries": 49.6,
+        "restaurant": 66.2,
+        "ppi": 82
+    },
+    {
+        "number": 226,
+        "city": "Sliema, Malta",
+        "colIndex": 63.5,
+        "rentIndex": 30.4,
+        "colAndRent": 47.7,
+        "groceries": 55.6,
+        "restaurant": 69.5,
+        "ppi": 52.9
+    },
+    {
+        "number": 227,
+        "city": "Leipzig, Germany",
+        "colIndex": 63.4,
+        "rentIndex": 19.8,
+        "colAndRent": 42.6,
+        "groceries": 51.4,
+        "restaurant": 54.5,
+        "ppi": 90.1
+    },
+    {
+        "number": 228,
+        "city": "Larnaca, Cyprus",
+        "colIndex": 63.4,
+        "rentIndex": 25,
+        "colAndRent": 45.1,
+        "groceries": 50.3,
+        "restaurant": 63.6,
+        "ppi": 47
+    },
+    {
+        "number": 229,
+        "city": "Southampton, United Kingdom",
+        "colIndex": 63.1,
+        "rentIndex": 27.8,
+        "colAndRent": 46.3,
+        "groceries": 47.9,
+        "restaurant": 65.4,
+        "ppi": 95.3
+    },
+    {
+        "number": 230,
+        "city": "Brampton, Canada",
+        "colIndex": 63.1,
+        "rentIndex": 38,
+        "colAndRent": 51.2,
+        "groceries": 56.3,
+        "restaurant": 60.4,
+        "ppi": 100.1
+    },
+    {
+        "number": 231,
+        "city": "Windsor, Canada",
+        "colIndex": 63,
+        "rentIndex": 29.6,
+        "colAndRent": 47.1,
+        "groceries": 56.4,
+        "restaurant": 62.3,
+        "ppi": 103.3
+    },
+    {
+        "number": 232,
+        "city": "Milton Keynes, United Kingdom",
+        "colIndex": 62.8,
+        "rentIndex": 35.3,
+        "colAndRent": 49.7,
+        "groceries": 50.4,
+        "restaurant": 66.4,
+        "ppi": 114.6
+    },
+    {
+        "number": 233,
+        "city": "Cagliari, Italy",
+        "colIndex": 62.7,
+        "rentIndex": 18.5,
+        "colAndRent": 41.6,
+        "groceries": 53.5,
+        "restaurant": 66.1,
+        "ppi": 57.3
+    },
+    {
+        "number": 234,
+        "city": "Mississauga, Canada",
+        "colIndex": 62.7,
+        "rentIndex": 43,
+        "colAndRent": 53.3,
+        "groceries": 57.4,
+        "restaurant": 57.1,
+        "ppi": 98.1
+    },
+    {
+        "number": 235,
+        "city": "Dresden, Germany",
+        "colIndex": 62.6,
+        "rentIndex": 18.8,
+        "colAndRent": 41.8,
+        "groceries": 49.1,
+        "restaurant": 54.4,
+        "ppi": 100.3
+    },
+    {
+        "number": 236,
+        "city": "Suzhou, China",
+        "colIndex": 62.6,
+        "rentIndex": 22.3,
+        "colAndRent": 43.4,
+        "groceries": 71.8,
+        "restaurant": 49.8,
+        "ppi": 28.8
+    },
+    {
+        "number": 237,
+        "city": "Regina, Canada",
+        "colIndex": 62.3,
+        "rentIndex": 22,
+        "colAndRent": 43.1,
+        "groceries": 57.7,
+        "restaurant": 59.8,
+        "ppi": 135.9
+    },
+    {
+        "number": 238,
+        "city": "Exeter, United Kingdom",
+        "colIndex": 62.3,
+        "rentIndex": 29.9,
+        "colAndRent": 46.9,
+        "groceries": 49.7,
+        "restaurant": 67.9,
+        "ppi": 85.6
+    },
+    {
+        "number": 239,
+        "city": "Newcastle upon Tyne, United Kingdom",
+        "colIndex": 62.3,
+        "rentIndex": 24.7,
+        "colAndRent": 44.4,
+        "groceries": 51.1,
+        "restaurant": 69.4,
+        "ppi": 91.6
+    },
+    {
+        "number": 240,
+        "city": "Limassol, Cyprus",
+        "colIndex": 62.3,
+        "rentIndex": 44.5,
+        "colAndRent": 53.8,
+        "groceries": 49.1,
+        "restaurant": 63.2,
+        "ppi": 49.8
+    },
+    {
+        "number": 241,
+        "city": "Prague, Czech Republic",
+        "colIndex": 62.2,
+        "rentIndex": 30,
+        "colAndRent": 46.9,
+        "groceries": 52.8,
+        "restaurant": 51.3,
+        "ppi": 65.2
+    },
+    {
+        "number": 242,
+        "city": "Treviso, Italy",
+        "colIndex": 62.2,
+        "rentIndex": 20.4,
+        "colAndRent": 42.3,
+        "groceries": 53.4,
+        "restaurant": 67,
+        "ppi": 60
+    },
+    {
+        "number": 243,
+        "city": "Padova, Italy",
+        "colIndex": 62.2,
+        "rentIndex": 22.4,
+        "colAndRent": 43.3,
+        "groceries": 52.9,
+        "restaurant": 62.9,
+        "ppi": 58.7
+    },
+    {
+        "number": 244,
+        "city": "Uppsala, Sweden",
+        "colIndex": 62.1,
+        "rentIndex": 20.7,
+        "colAndRent": 42.4,
+        "groceries": 55.1,
+        "restaurant": 60.8,
+        "ppi": 84.5
+    },
+    {
+        "number": 245,
+        "city": "Portsmouth, United Kingdom",
+        "colIndex": 61.8,
+        "rentIndex": 29.3,
+        "colAndRent": 46.3,
+        "groceries": 54.3,
+        "restaurant": 63.7,
+        "ppi": 103.4
+    },
+    {
+        "number": 246,
+        "city": "Norwich, United Kingdom",
+        "colIndex": 61.7,
+        "rentIndex": 29.2,
+        "colAndRent": 46.2,
+        "groceries": 48.1,
+        "restaurant": 76.6,
+        "ppi": 94.3
+    },
+    {
+        "number": 247,
+        "city": "Swansea, United Kingdom",
+        "colIndex": 61.6,
+        "rentIndex": 24.4,
+        "colAndRent": 43.9,
+        "groceries": 50.6,
+        "restaurant": 74.5,
+        "ppi": 74.4
+    },
+    {
+        "number": 248,
+        "city": "The Hague (Den Haag), Netherlands",
+        "colIndex": 61.6,
+        "rentIndex": 30.7,
+        "colAndRent": 46.9,
+        "groceries": 47.9,
+        "restaurant": 64.9,
+        "ppi": 123.7
+    },
+    {
+        "number": 249,
+        "city": "Gothenburg, Sweden",
+        "colIndex": 61.5,
+        "rentIndex": 24.2,
+        "colAndRent": 43.7,
+        "groceries": 55.9,
+        "restaurant": 58.2,
+        "ppi": 95.8
+    },
+    {
+        "number": 250,
+        "city": "Turin, Italy",
+        "colIndex": 61.3,
+        "rentIndex": 18.8,
+        "colAndRent": 41.1,
+        "groceries": 53.7,
+        "restaurant": 64.1,
+        "ppi": 64.2
+    },
+    {
+        "number": 251,
+        "city": "Cardiff, United Kingdom",
+        "colIndex": 61.3,
+        "rentIndex": 27.8,
+        "colAndRent": 45.4,
+        "groceries": 49.1,
+        "restaurant": 72.7,
+        "ppi": 92.7
+    },
+    {
+        "number": 252,
+        "city": "Montevideo, Uruguay",
+        "colIndex": 61.2,
+        "rentIndex": 17.5,
+        "colAndRent": 40.4,
+        "groceries": 51.7,
+        "restaurant": 59.1,
+        "ppi": 43.9
+    },
+    {
+        "number": 253,
+        "city": "Bari, Italy",
+        "colIndex": 61.1,
+        "rentIndex": 19.2,
+        "colAndRent": 41.1,
+        "groceries": 54.3,
+        "restaurant": 62.6,
+        "ppi": 64.4
+    },
+    {
+        "number": 254,
+        "city": "Birmingham, United Kingdom",
+        "colIndex": 61,
+        "rentIndex": 31.8,
+        "colAndRent": 47.1,
+        "groceries": 49,
+        "restaurant": 62.8,
+        "ppi": 99
+    },
+    {
+        "number": 255,
+        "city": "Malmo, Sweden",
+        "colIndex": 60.9,
+        "rentIndex": 20.9,
+        "colAndRent": 41.9,
+        "groceries": 54.4,
+        "restaurant": 63.1,
+        "ppi": 98.9
+    },
+    {
+        "number": 256,
+        "city": "Verona, Italy",
+        "colIndex": 60.9,
+        "rentIndex": 21.2,
+        "colAndRent": 42,
+        "groceries": 54.8,
+        "restaurant": 61.8,
+        "ppi": 63.8
+    },
+    {
+        "number": 257,
+        "city": "Aberdeen, United Kingdom",
+        "colIndex": 60.9,
+        "rentIndex": 20.7,
+        "colAndRent": 41.8,
+        "groceries": 47.2,
+        "restaurant": 69.7,
+        "ppi": 116.7
+    },
+    {
+        "number": 258,
+        "city": "Douglas, Isle Of Man",
+        "colIndex": 60.9,
+        "rentIndex": 30.3,
+        "colAndRent": 46.3,
+        "groceries": 47.3,
+        "restaurant": 83,
+        "ppi": 158.3
+    },
+    {
+        "number": 259,
+        "city": "Rimini, Italy",
+        "colIndex": 60.2,
+        "rentIndex": 18.6,
+        "colAndRent": 40.4,
+        "groceries": 51.8,
+        "restaurant": 64.7,
+        "ppi": 67.6
+    },
+    {
+        "number": 260,
+        "city": "Leicester, United Kingdom",
+        "colIndex": 59.9,
+        "rentIndex": 23.7,
+        "colAndRent": 42.7,
+        "groceries": 46.4,
+        "restaurant": 69.9,
+        "ppi": 97.3
+    },
+    {
+        "number": 261,
+        "city": "Al Khobar, Saudi Arabia",
+        "colIndex": 59.8,
+        "rentIndex": 11.1,
+        "colAndRent": 36.6,
+        "groceries": 48,
+        "restaurant": 46,
+        "ppi": 102.6
+    },
+    {
+        "number": 262,
+        "city": "Abu Dhabi, United Arab Emirates",
+        "colIndex": 59.8,
+        "rentIndex": 43.5,
+        "colAndRent": 52,
+        "groceries": 42.3,
+        "restaurant": 66.7,
+        "ppi": 110.5
+    },
+    {
+        "number": 263,
+        "city": "Doha, Qatar",
+        "colIndex": 59.4,
+        "rentIndex": 47,
+        "colAndRent": 53.5,
+        "groceries": 44.4,
+        "restaurant": 56.4,
+        "ppi": 102.1
+    },
+    {
+        "number": 264,
+        "city": "Athens, Greece",
+        "colIndex": 59.1,
+        "rentIndex": 16.9,
+        "colAndRent": 39,
+        "groceries": 49,
+        "restaurant": 59.9,
+        "ppi": 41.2
+    },
+    {
+        "number": 265,
+        "city": "Chania, Greece",
+        "colIndex": 58.9,
+        "rentIndex": 13.4,
+        "colAndRent": 37.2,
+        "groceries": 46.2,
+        "restaurant": 60.9,
+        "ppi": 37.4
+    },
+    {
+        "number": 266,
+        "city": "Kingston, Jamaica",
+        "colIndex": 58.6,
+        "rentIndex": 18.6,
+        "colAndRent": 39.6,
+        "groceries": 60.5,
+        "restaurant": 38.9,
+        "ppi": 25.3
+    },
+    {
+        "number": 267,
+        "city": "Bilbao, Spain",
+        "colIndex": 58.3,
+        "rentIndex": 25.8,
+        "colAndRent": 42.8,
+        "groceries": 53.2,
+        "restaurant": 58.7,
+        "ppi": 74.3
+    },
+    {
+        "number": 268,
+        "city": "Coventry, United Kingdom",
+        "colIndex": 58.3,
+        "rentIndex": 24.7,
+        "colAndRent": 42.3,
+        "groceries": 46.9,
+        "restaurant": 54,
+        "ppi": 132.4
+    },
+    {
+        "number": 269,
+        "city": "Tallinn, Estonia",
+        "colIndex": 58.1,
+        "rentIndex": 18.3,
+        "colAndRent": 39.2,
+        "groceries": 44.7,
+        "restaurant": 59.8,
+        "ppi": 65.7
+    },
+    {
+        "number": 270,
+        "city": "Port of Spain, Trinidad And Tobago",
+        "colIndex": 58,
+        "rentIndex": 16,
+        "colAndRent": 38,
+        "groceries": 51.9,
+        "restaurant": 62.2,
+        "ppi": 31.6
+    },
+    {
+        "number": 271,
+        "city": "Barcelona, Spain",
+        "colIndex": 57.9,
+        "rentIndex": 30,
+        "colAndRent": 44.6,
+        "groceries": 46.1,
+        "restaurant": 61.3,
+        "ppi": 68.8
+    },
+    {
+        "number": 272,
+        "city": "Trinidad, Trinidad And Tobago",
+        "colIndex": 57.4,
+        "rentIndex": 17.9,
+        "colAndRent": 38.6,
+        "groceries": 55.3,
+        "restaurant": 55.3,
+        "ppi": 40.6
+    },
+    {
+        "number": 273,
+        "city": "Tokyo, Japan",
+        "colIndex": 57.3,
+        "rentIndex": 27,
+        "colAndRent": 42.9,
+        "groceries": 63,
+        "restaurant": 40,
+        "ppi": 88.7
+    },
+    {
+        "number": 274,
+        "city": "Taipei, Taiwan",
+        "colIndex": 57.2,
+        "rentIndex": 20.2,
+        "colAndRent": 39.6,
+        "groceries": 65.7,
+        "restaurant": 34.3,
+        "ppi": 73.2
+    },
+    {
+        "number": 275,
+        "city": "Tartu, Estonia",
+        "colIndex": 57,
+        "rentIndex": 14.5,
+        "colAndRent": 36.8,
+        "groceries": 47.8,
+        "restaurant": 53.5,
+        "ppi": 59.6
+    },
+    {
+        "number": 276,
+        "city": "Nicosia, Cyprus",
+        "colIndex": 56.7,
+        "rentIndex": 19.5,
+        "colAndRent": 39,
+        "groceries": 46.1,
+        "restaurant": 56,
+        "ppi": 62.5
+    },
+    {
+        "number": 277,
+        "city": "Naples, Italy",
+        "colIndex": 56.5,
+        "rentIndex": 18.2,
+        "colAndRent": 38.3,
+        "groceries": 47.1,
+        "restaurant": 57.9,
+        "ppi": 59.5
+    },
+    {
+        "number": 278,
+        "city": "San Jose, Costa Rica",
+        "colIndex": 56.3,
+        "rentIndex": 21.5,
+        "colAndRent": 39.7,
+        "groceries": 54,
+        "restaurant": 52.4,
+        "ppi": 33.5
+    },
+    {
+        "number": 279,
+        "city": "Riga, Latvia",
+        "colIndex": 56,
+        "rentIndex": 12.7,
+        "colAndRent": 35.4,
+        "groceries": 43.4,
+        "restaurant": 55.2,
+        "ppi": 52.6
+    },
+    {
+        "number": 280,
+        "city": "Thessaloniki, Greece",
+        "colIndex": 55.9,
+        "rentIndex": 13.6,
+        "colAndRent": 35.8,
+        "groceries": 45,
+        "restaurant": 56.6,
+        "ppi": 37.8
+    },
+    {
+        "number": 281,
+        "city": "Male, Maldives",
+        "colIndex": 55.6,
+        "rentIndex": 24.6,
+        "colAndRent": 40.8,
+        "groceries": 47.7,
+        "restaurant": 33.7,
+        "ppi": 32.3
+    },
+    {
+        "number": 282,
+        "city": "Ljubljana, Slovenia",
+        "colIndex": 55.2,
+        "rentIndex": 21.8,
+        "colAndRent": 39.3,
+        "groceries": 48.1,
+        "restaurant": 49.8,
+        "ppi": 58.9
+    },
+    {
+        "number": 283,
+        "city": "Palma de Mallorca, Spain",
+        "colIndex": 55.1,
+        "rentIndex": 24.4,
+        "colAndRent": 40.5,
+        "groceries": 44.7,
+        "restaurant": 55.1,
+        "ppi": 66.2
+    },
+    {
+        "number": 284,
+        "city": "Larissa, Greece",
+        "colIndex": 55.1,
+        "rentIndex": 9.2,
+        "colAndRent": 33.3,
+        "groceries": 43.7,
+        "restaurant": 54.4,
+        "ppi": 42.8
+    },
+    {
+        "number": 285,
+        "city": "Havana, Cuba",
+        "colIndex": 55,
+        "rentIndex": 18.8,
+        "colAndRent": 37.8,
+        "groceries": 47.4,
+        "restaurant": 39.6,
+        "ppi": 1.5
+    },
+    {
+        "number": 286,
+        "city": "Manama, Bahrain",
+        "colIndex": 55,
+        "rentIndex": 26.1,
+        "colAndRent": 41.2,
+        "groceries": 41.2,
+        "restaurant": 49.9,
+        "ppi": 80.3
+    },
+    {
+        "number": 287,
+        "city": "Paphos, Cyprus",
+        "colIndex": 54.5,
+        "rentIndex": 24,
+        "colAndRent": 40,
+        "groceries": 40.8,
+        "restaurant": 56.9,
+        "ppi": 49.3
+    },
+    {
+        "number": 288,
+        "city": "Kingston upon Hull, United Kingdom",
+        "colIndex": 54.3,
+        "rentIndex": 16.2,
+        "colAndRent": 36.2,
+        "groceries": 45.9,
+        "restaurant": 53.3,
+        "ppi": 102.1
+    },
+    {
+        "number": 289,
+        "city": "Taichung, Taiwan",
+        "colIndex": 54.2,
+        "rentIndex": 13.5,
+        "colAndRent": 34.9,
+        "groceries": 65.4,
+        "restaurant": 25.4,
+        "ppi": 49.5
+    },
+    {
+        "number": 290,
+        "city": "Beirut, Lebanon",
+        "colIndex": 54,
+        "rentIndex": 18.6,
+        "colAndRent": 37.1,
+        "groceries": 36.8,
+        "restaurant": 41.3,
+        "ppi": 12.3
+    },
+    {
+        "number": 291,
+        "city": "Bratislava, Slovakia",
+        "colIndex": 53.9,
+        "rentIndex": 19.2,
+        "colAndRent": 37.4,
+        "groceries": 46.6,
+        "restaurant": 46,
+        "ppi": 55.5
+    },
+    {
+        "number": 292,
+        "city": "Palermo, Italy",
+        "colIndex": 53.8,
+        "rentIndex": 13.1,
+        "colAndRent": 34.4,
+        "groceries": 45.2,
+        "restaurant": 49.9,
+        "ppi": 63.9
+    },
+    {
+        "number": 293,
+        "city": "Zagreb, Croatia",
+        "colIndex": 53.3,
+        "rentIndex": 17,
+        "colAndRent": 36,
+        "groceries": 45.6,
+        "restaurant": 51.2,
+        "ppi": 55
+    },
+    {
+        "number": 294,
+        "city": "Heraklion, Greece",
+        "colIndex": 53.1,
+        "rentIndex": 12.6,
+        "colAndRent": 33.8,
+        "groceries": 47.2,
+        "restaurant": 49.2,
+        "ppi": 40.2
+    },
+    {
+        "number": 295,
+        "city": "Oviedo, Spain",
+        "colIndex": 53,
+        "rentIndex": 14.9,
+        "colAndRent": 34.9,
+        "groceries": 47.5,
+        "restaurant": 48.6,
+        "ppi": 93.8
+    },
+    {
+        "number": 296,
+        "city": "Osaka, Japan",
+        "colIndex": 52.8,
+        "rentIndex": 15.3,
+        "colAndRent": 35,
+        "groceries": 53.9,
+        "restaurant": 36.4,
+        "ppi": 92.8
+    },
+    {
+        "number": 297,
+        "city": "Santiago, Chile",
+        "colIndex": 52.5,
+        "rentIndex": 16.7,
+        "colAndRent": 35.5,
+        "groceries": 50,
+        "restaurant": 51.7,
+        "ppi": 31.1
+    },
+    {
+        "number": 298,
+        "city": "Douala, Cameroon",
+        "colIndex": 52.4,
+        "rentIndex": 22.8,
+        "colAndRent": 38.3,
+        "groceries": 41.6,
+        "restaurant": 61.4,
+        "ppi": 6.1
+    },
+    {
+        "number": 299,
+        "city": "Riyadh, Saudi Arabia",
+        "colIndex": 52.3,
+        "rentIndex": 21.4,
+        "colAndRent": 37.6,
+        "groceries": 42.1,
+        "restaurant": 41,
+        "ppi": 93.2
+    },
+    {
+        "number": 300,
+        "city": "Madrid, Spain",
+        "colIndex": 52.3,
+        "rentIndex": 28.2,
+        "colAndRent": 40.8,
+        "groceries": 45.5,
+        "restaurant": 53.6,
+        "ppi": 103.2
+    },
+    {
+        "number": 301,
+        "city": "Lisbon, Portugal",
+        "colIndex": 52.2,
+        "rentIndex": 34.8,
+        "colAndRent": 44,
+        "groceries": 43.6,
+        "restaurant": 51.5,
+        "ppi": 43.7
+    },
+    {
+        "number": 302,
+        "city": "Catania, Italy",
+        "colIndex": 52.2,
+        "rentIndex": 13.4,
+        "colAndRent": 33.7,
+        "groceries": 43.6,
+        "restaurant": 52.2,
+        "ppi": 55
+    },
+    {
+        "number": 303,
+        "city": "Ramallah, Palestine",
+        "colIndex": 52.1,
+        "rentIndex": 12,
+        "colAndRent": 33,
+        "groceries": 43.7,
+        "restaurant": 42.5,
+        "ppi": 36.8
+    },
+    {
+        "number": 304,
+        "city": "Ostrava, Czech Republic",
+        "colIndex": 52.1,
+        "rentIndex": 14.8,
+        "colAndRent": 34.4,
+        "groceries": 43.7,
+        "restaurant": 40.2,
+        "ppi": 65.7
+    },
+    {
+        "number": 305,
+        "city": "Vilnius, Lithuania",
+        "colIndex": 51.9,
+        "rentIndex": 20.8,
+        "colAndRent": 37.1,
+        "groceries": 43,
+        "restaurant": 55.4,
+        "ppi": 60.2
+    },
+    {
+        "number": 306,
+        "city": "Zadar, Croatia",
+        "colIndex": 51.9,
+        "rentIndex": 13.6,
+        "colAndRent": 33.7,
+        "groceries": 43.8,
+        "restaurant": 50.9,
+        "ppi": 38.2
+    },
+    {
+        "number": 307,
+        "city": "Brno, Czech Republic",
+        "colIndex": 51.9,
+        "rentIndex": 19.7,
+        "colAndRent": 36.6,
+        "groceries": 43.4,
+        "restaurant": 37.9,
+        "ppi": 66.4
+    },
+    {
+        "number": 308,
+        "city": "Budapest, Hungary",
+        "colIndex": 51.9,
+        "rentIndex": 16.3,
+        "colAndRent": 34.9,
+        "groceries": 45.6,
+        "restaurant": 45.9,
+        "ppi": 53.6
+    },
+    {
+        "number": 309,
+        "city": "Jeddah (Jiddah), Saudi Arabia",
+        "colIndex": 51.8,
+        "rentIndex": 13.5,
+        "colAndRent": 33.6,
+        "groceries": 41.8,
+        "restaurant": 39.9,
+        "ppi": 88.9
+    },
+    {
+        "number": 310,
+        "city": "Plzen, Czech Republic",
+        "colIndex": 51.3,
+        "rentIndex": 14.7,
+        "colAndRent": 33.9,
+        "groceries": 43.3,
+        "restaurant": 39.6,
+        "ppi": 75.8
+    },
+    {
+        "number": 311,
+        "city": "Dubrovnik, Croatia",
+        "colIndex": 51.2,
+        "rentIndex": 11.6,
+        "colAndRent": 32.3,
+        "groceries": 39.7,
+        "restaurant": 53.7,
+        "ppi": 47.8
+    },
+    {
+        "number": 312,
+        "city": "Pamplona, Spain",
+        "colIndex": 51.1,
+        "rentIndex": 20.8,
+        "colAndRent": 36.7,
+        "groceries": 45.5,
+        "restaurant": 52.4,
+        "ppi": 115.1
+    },
+    {
+        "number": 313,
+        "city": "Corfu, Greece",
+        "colIndex": 51,
+        "rentIndex": 12.3,
+        "colAndRent": 32.6,
+        "groceries": 39.8,
+        "restaurant": 50.6,
+        "ppi": 38.1
+    },
+    {
+        "number": 314,
+        "city": "Seville (Sevilla), Spain",
+        "colIndex": 50.4,
+        "rentIndex": 17.4,
+        "colAndRent": 34.7,
+        "groceries": 44,
+        "restaurant": 44.5,
+        "ppi": 75.7
+    },
+    {
+        "number": 315,
+        "city": "Muscat, Oman",
+        "colIndex": 50.4,
+        "rentIndex": 17.2,
+        "colAndRent": 34.6,
+        "groceries": 40,
+        "restaurant": 43.4,
+        "ppi": 82.5
+    },
+    {
+        "number": 316,
+        "city": "Granada, Spain",
+        "colIndex": 50.3,
+        "rentIndex": 16.9,
+        "colAndRent": 34.4,
+        "groceries": 41.5,
+        "restaurant": 54.2,
+        "ppi": 85.2
+    },
+    {
+        "number": 317,
+        "city": "Panama City, Panama",
+        "colIndex": 50.1,
+        "rentIndex": 24.2,
+        "colAndRent": 37.8,
+        "groceries": 47.2,
+        "restaurant": 50.6,
+        "ppi": 34
+    },
+    {
+        "number": 318,
+        "city": "Santo Domingo, Dominican Republic",
+        "colIndex": 50,
+        "rentIndex": 20.1,
+        "colAndRent": 35.8,
+        "groceries": 42.2,
+        "restaurant": 42.8,
+        "ppi": 19.9
+    },
+    {
+        "number": 319,
+        "city": "Alicante, Spain",
+        "colIndex": 49.7,
+        "rentIndex": 18.8,
+        "colAndRent": 35,
+        "groceries": 41.3,
+        "restaurant": 50.6,
+        "ppi": 69
+    },
+    {
+        "number": 320,
+        "city": "Malaga, Spain",
+        "colIndex": 49.7,
+        "rentIndex": 23.5,
+        "colAndRent": 37.3,
+        "groceries": 40.6,
+        "restaurant": 48.9,
+        "ppi": 87.2
+    },
+    {
+        "number": 321,
+        "city": "Kaohsiung, Taiwan",
+        "colIndex": 49.7,
+        "rentIndex": 10.6,
+        "colAndRent": 31.1,
+        "groceries": 56,
+        "restaurant": 25.2,
+        "ppi": 56.3
+    },
+    {
+        "number": 322,
+        "city": "Kaunas, Lithuania",
+        "colIndex": 49.6,
+        "rentIndex": 14.5,
+        "colAndRent": 32.9,
+        "groceries": 42.3,
+        "restaurant": 47.3,
+        "ppi": 60.3
+    },
+    {
+        "number": 323,
+        "city": "New Taipei City, Taiwan",
+        "colIndex": 49.5,
+        "rentIndex": 17.5,
+        "colAndRent": 34.3,
+        "groceries": 57.7,
+        "restaurant": 23.3,
+        "ppi": 65.4
+    },
+    {
+        "number": 324,
+        "city": "Valencia, Spain",
+        "colIndex": 49.4,
+        "rentIndex": 22.1,
+        "colAndRent": 36.4,
+        "groceries": 43.7,
+        "restaurant": 49.9,
+        "ppi": 94.4
+    },
+    {
+        "number": 325,
+        "city": "Olomouc, Czech Republic",
+        "colIndex": 49.3,
+        "rentIndex": 15.3,
+        "colAndRent": 33.1,
+        "groceries": 43.1,
+        "restaurant": 34.8,
+        "ppi": 65
+    },
+    {
+        "number": 326,
+        "city": "Sharjah, United Arab Emirates",
+        "colIndex": 49.2,
+        "rentIndex": 20.9,
+        "colAndRent": 35.7,
+        "groceries": 35.9,
+        "restaurant": 34.2,
+        "ppi": 67.9
+    },
+    {
+        "number": 327,
+        "city": "Kosice, Slovakia",
+        "colIndex": 49,
+        "rentIndex": 15.4,
+        "colAndRent": 33,
+        "groceries": 42.1,
+        "restaurant": 38,
+        "ppi": 51.3
+    },
+    {
+        "number": 328,
+        "city": "Rijeka, Croatia",
+        "colIndex": 48.8,
+        "rentIndex": 12.6,
+        "colAndRent": 31.6,
+        "groceries": 41.5,
+        "restaurant": 48.3,
+        "ppi": 48.9
+    },
+    {
+        "number": 329,
+        "city": "Monterrey, Mexico",
+        "colIndex": 48.6,
+        "rentIndex": 22.4,
+        "colAndRent": 36.1,
+        "groceries": 46.6,
+        "restaurant": 48,
+        "ppi": 47.9
+    },
+    {
+        "number": 330,
+        "city": "Cascais, Portugal",
+        "colIndex": 48.5,
+        "rentIndex": 33.1,
+        "colAndRent": 41.2,
+        "groceries": 36.3,
+        "restaurant": 48.2,
+        "ppi": 49.7
+    },
+    {
+        "number": 331,
+        "city": "Las Palmas de Gran Canaria, Spain",
+        "colIndex": 48.4,
+        "rentIndex": 19.8,
+        "colAndRent": 34.8,
+        "groceries": 42.5,
+        "restaurant": 44.6,
+        "ppi": 56
+    },
+    {
+        "number": 332,
+        "city": "Ad Dammam, Saudi Arabia",
+        "colIndex": 48.4,
+        "rentIndex": 9.8,
+        "colAndRent": 30,
+        "groceries": 42,
+        "restaurant": 33.4,
+        "ppi": 109.1
+    },
+    {
+        "number": 333,
+        "city": "Klaipeda, Lithuania",
+        "colIndex": 48.3,
+        "rentIndex": 12,
+        "colAndRent": 31,
+        "groceries": 41.8,
+        "restaurant": 41.2,
+        "ppi": 59.6
+    },
+    {
+        "number": 334,
+        "city": "Warsaw, Poland",
+        "colIndex": 48.3,
+        "rentIndex": 26.5,
+        "colAndRent": 37.9,
+        "groceries": 39,
+        "restaurant": 45.3,
+        "ppi": 63.4
+    },
+    {
+        "number": 335,
+        "city": "Katowice, Poland",
+        "colIndex": 48.1,
+        "rentIndex": 13.4,
+        "colAndRent": 31.6,
+        "groceries": 41.1,
+        "restaurant": 40.3,
+        "ppi": 61.7
+    },
+    {
+        "number": 336,
+        "city": "Maribor, Slovenia",
+        "colIndex": 47.9,
+        "rentIndex": 13.1,
+        "colAndRent": 31.3,
+        "groceries": 42.6,
+        "restaurant": 40.6,
+        "ppi": 72
+    },
+    {
+        "number": 337,
+        "city": "Tijuana, Mexico",
+        "colIndex": 47.4,
+        "rentIndex": 16.7,
+        "colAndRent": 32.8,
+        "groceries": 41.8,
+        "restaurant": 49.7,
+        "ppi": 41.7
+    },
+    {
+        "number": 338,
+        "city": "Amman, Jordan",
+        "colIndex": 47.3,
+        "rentIndex": 9.2,
+        "colAndRent": 29.1,
+        "groceries": 38.5,
+        "restaurant": 43.2,
+        "ppi": 32.9
+    },
+    {
+        "number": 339,
+        "city": "Funchal, Portugal",
+        "colIndex": 47.1,
+        "rentIndex": 24.2,
+        "colAndRent": 36.2,
+        "groceries": 40.9,
+        "restaurant": 42.2,
+        "ppi": 46.9
+    },
+    {
+        "number": 340,
+        "city": "Kuwait City, Kuwait",
+        "colIndex": 47,
+        "rentIndex": 26.7,
+        "colAndRent": 37.3,
+        "groceries": 33.6,
+        "restaurant": 44.9,
+        "ppi": 81.3
+    },
+    {
+        "number": 341,
+        "city": "Mexico City, Mexico",
+        "colIndex": 46.9,
+        "rentIndex": 22.9,
+        "colAndRent": 35.5,
+        "groceries": 45.1,
+        "restaurant": 45,
+        "ppi": 36.2
+    },
+    {
+        "number": 342,
+        "city": "Dakar, Senegal",
+        "colIndex": 46.7,
+        "rentIndex": 22.2,
+        "colAndRent": 35,
+        "groceries": 38.5,
+        "restaurant": 47.1,
+        "ppi": 20.2
+    },
+    {
+        "number": 343,
+        "city": "Porto, Portugal",
+        "colIndex": 46.6,
+        "rentIndex": 24.4,
+        "colAndRent": 36,
+        "groceries": 42,
+        "restaurant": 39.3,
+        "ppi": 60.4
+    },
+    {
+        "number": 344,
+        "city": "Szeged, Hungary",
+        "colIndex": 46.3,
+        "rentIndex": 9.4,
+        "colAndRent": 28.7,
+        "groceries": 42.4,
+        "restaurant": 35.6,
+        "ppi": 51.7
+    },
+    {
+        "number": 345,
+        "city": "Georgetown, Guyana",
+        "colIndex": 46.1,
+        "rentIndex": 12.1,
+        "colAndRent": 29.9,
+        "groceries": 46,
+        "restaurant": 43.4,
+        "ppi": 21.9
+    },
+    {
+        "number": 346,
+        "city": "Krakow (Cracow), Poland",
+        "colIndex": 46.1,
+        "rentIndex": 20.4,
+        "colAndRent": 33.9,
+        "groceries": 36.9,
+        "restaurant": 43.7,
+        "ppi": 66.9
+    },
+    {
+        "number": 347,
+        "city": "Vigo, Spain",
+        "colIndex": 46.1,
+        "rentIndex": 16.6,
+        "colAndRent": 32,
+        "groceries": 41,
+        "restaurant": 41,
+        "ppi": 75.8
+    },
+    {
+        "number": 348,
+        "city": "Sofia, Bulgaria",
+        "colIndex": 46,
+        "rentIndex": 13,
+        "colAndRent": 30.3,
+        "groceries": 41.7,
+        "restaurant": 45.2,
+        "ppi": 59
+    },
+    {
+        "number": 349,
+        "city": "Phnom Penh, Cambodia",
+        "colIndex": 45.9,
+        "rentIndex": 16.1,
+        "colAndRent": 31.7,
+        "groceries": 44.6,
+        "restaurant": 30,
+        "ppi": 15.1
+    },
+    {
+        "number": 350,
+        "city": "Zaragoza (Saragossa), Spain",
+        "colIndex": 45.9,
+        "rentIndex": 17.9,
+        "colAndRent": 32.5,
+        "groceries": 37.6,
+        "restaurant": 48.5,
+        "ppi": 79.5
+    },
+    {
+        "number": 351,
+        "city": "Leiria, Portugal",
+        "colIndex": 45.8,
+        "rentIndex": 16.6,
+        "colAndRent": 31.9,
+        "groceries": 33.7,
+        "restaurant": 39.4,
+        "ppi": 63.7
+    },
+    {
+        "number": 352,
+        "city": "Wroclaw, Poland",
+        "colIndex": 45.7,
+        "rentIndex": 19.5,
+        "colAndRent": 33.2,
+        "groceries": 35.8,
+        "restaurant": 42.9,
+        "ppi": 58.9
+    },
+    {
+        "number": 353,
+        "city": "Coimbra, Portugal",
+        "colIndex": 45.5,
+        "rentIndex": 16.3,
+        "colAndRent": 31.6,
+        "groceries": 38.2,
+        "restaurant": 38.2,
+        "ppi": 50.2
+    },
+    {
+        "number": 354,
+        "city": "Murcia, Spain",
+        "colIndex": 45.5,
+        "rentIndex": 17,
+        "colAndRent": 31.9,
+        "groceries": 35.8,
+        "restaurant": 47.4,
+        "ppi": 65
+    },
+    {
+        "number": 355,
+        "city": "Abidjan, Ivory Coast",
+        "colIndex": 45.5,
+        "rentIndex": 15.3,
+        "colAndRent": 31.1,
+        "groceries": 37.4,
+        "restaurant": 28.9,
+        "ppi": 6.8
+    },
+    {
+        "number": 356,
+        "city": "Addis Ababa, Ethiopia",
+        "colIndex": 45.2,
+        "rentIndex": 17.6,
+        "colAndRent": 32.1,
+        "groceries": 37.9,
+        "restaurant": 27.8,
+        "ppi": 10.8
+    },
+    {
+        "number": 357,
+        "city": "Santa Cruz de Tenerife, Spain",
+        "colIndex": 45.2,
+        "rentIndex": 18.9,
+        "colAndRent": 32.7,
+        "groceries": 39,
+        "restaurant": 48.3,
+        "ppi": 65.8
+    },
+    {
+        "number": 358,
+        "city": "Budva, Montenegro",
+        "colIndex": 45.2,
+        "rentIndex": 23.9,
+        "colAndRent": 35,
+        "groceries": 36.1,
+        "restaurant": 43.2,
+        "ppi": 34.4
+    },
+    {
+        "number": 359,
+        "city": "Bucharest, Romania",
+        "colIndex": 45,
+        "rentIndex": 13.9,
+        "colAndRent": 30.2,
+        "groceries": 39.2,
+        "restaurant": 46.8,
+        "ppi": 51.5
+    },
+    {
+        "number": 360,
+        "city": "Merida, Mexico",
+        "colIndex": 45,
+        "rentIndex": 16.1,
+        "colAndRent": 31.3,
+        "groceries": 44.9,
+        "restaurant": 44.8,
+        "ppi": 31.6
+    },
+    {
+        "number": 361,
+        "city": "Poznan, Poland",
+        "colIndex": 45,
+        "rentIndex": 16.1,
+        "colAndRent": 31.2,
+        "groceries": 38.2,
+        "restaurant": 39.6,
+        "ppi": 58.6
+    },
+    {
+        "number": 362,
+        "city": "Bangkok, Thailand",
+        "colIndex": 44.9,
+        "rentIndex": 20.3,
+        "colAndRent": 33.2,
+        "groceries": 45.3,
+        "restaurant": 24.6,
+        "ppi": 30.1
+    },
+    {
+        "number": 363,
+        "city": "Cancun, Mexico",
+        "colIndex": 44.9,
+        "rentIndex": 16,
+        "colAndRent": 31.1,
+        "groceries": 42.3,
+        "restaurant": 47.1,
+        "ppi": 38.2
+    },
+    {
+        "number": 364,
+        "city": "Split, Croatia",
+        "colIndex": 44.9,
+        "rentIndex": 13.8,
+        "colAndRent": 30.1,
+        "groceries": 40,
+        "restaurant": 42.8,
+        "ppi": 57.7
+    },
+    {
+        "number": 365,
+        "city": "Guadalajara, Mexico",
+        "colIndex": 44.8,
+        "rentIndex": 17.1,
+        "colAndRent": 31.6,
+        "groceries": 44.7,
+        "restaurant": 42.4,
+        "ppi": 41.3
+    },
+    {
+        "number": 366,
+        "city": "Sao Paulo, Brazil",
+        "colIndex": 44.7,
+        "rentIndex": 16.9,
+        "colAndRent": 31.5,
+        "groceries": 39.7,
+        "restaurant": 38.6,
+        "ppi": 24.3
+    },
+    {
+        "number": 367,
+        "city": "Gdansk, Poland",
+        "colIndex": 44.6,
+        "rentIndex": 19,
+        "colAndRent": 32.4,
+        "groceries": 35.8,
+        "restaurant": 40.9,
+        "ppi": 64.7
+    },
+    {
+        "number": 368,
+        "city": "Belgrade, Serbia",
+        "colIndex": 44.6,
+        "rentIndex": 20.2,
+        "colAndRent": 33,
+        "groceries": 38.9,
+        "restaurant": 39.8,
+        "ppi": 33.7
+    },
+    {
+        "number": 369,
+        "city": "Tirana, Albania",
+        "colIndex": 44.5,
+        "rentIndex": 13.8,
+        "colAndRent": 29.9,
+        "groceries": 39.8,
+        "restaurant": 37.2,
+        "ppi": 28.6
+    },
+    {
+        "number": 370,
+        "city": "Braga, Portugal",
+        "colIndex": 44.3,
+        "rentIndex": 18.5,
+        "colAndRent": 32,
+        "groceries": 39,
+        "restaurant": 36.5,
+        "ppi": 54.4
+    },
+    {
+        "number": 371,
+        "city": "Aveiro, Portugal",
+        "colIndex": 44.3,
+        "rentIndex": 17.4,
+        "colAndRent": 31.5,
+        "groceries": 37.4,
+        "restaurant": 35.7,
+        "ppi": 43.4
+    },
+    {
+        "number": 372,
+        "city": "Yerevan, Armenia",
+        "colIndex": 44.2,
+        "rentIndex": 26.6,
+        "colAndRent": 35.8,
+        "groceries": 36.9,
+        "restaurant": 44.3,
+        "ppi": 24.6
+    },
+    {
+        "number": 373,
+        "city": "Debrecen, Hungary",
+        "colIndex": 43.5,
+        "rentIndex": 10.6,
+        "colAndRent": 27.8,
+        "groceries": 39.4,
+        "restaurant": 33.3,
+        "ppi": 52.8
+    },
+    {
+        "number": 374,
+        "city": "Shanghai, China",
+        "colIndex": 43.4,
+        "rentIndex": 31.9,
+        "colAndRent": 38,
+        "groceries": 43.8,
+        "restaurant": 35,
+        "ppi": 54.7
+    },
+    {
+        "number": 375,
+        "city": "Caracas, Venezuela",
+        "colIndex": 43.4,
+        "rentIndex": 11.6,
+        "colAndRent": 28.2,
+        "groceries": 38.5,
+        "restaurant": 46,
+        "ppi": 9.7
+    },
+    {
+        "number": 376,
+        "city": "Rio de Janeiro, Brazil",
+        "colIndex": 43.3,
+        "rentIndex": 12.5,
+        "colAndRent": 28.6,
+        "groceries": 34.1,
+        "restaurant": 33,
+        "ppi": 21.7
+    },
+    {
+        "number": 377,
+        "city": "Osijek, Croatia",
+        "colIndex": 43.2,
+        "rentIndex": 9.2,
+        "colAndRent": 27,
+        "groceries": 38.5,
+        "restaurant": 34.1,
+        "ppi": 51.7
+    },
+    {
+        "number": 378,
+        "city": "San Salvador, El Salvador",
+        "colIndex": 43.2,
+        "rentIndex": 15.9,
+        "colAndRent": 30.2,
+        "groceries": 42.6,
+        "restaurant": 35.2,
+        "ppi": 22.5
+    },
+    {
+        "number": 379,
+        "city": "Lodz, Poland",
+        "colIndex": 43.1,
+        "rentIndex": 16.2,
+        "colAndRent": 30.3,
+        "groceries": 33.4,
+        "restaurant": 37.8,
+        "ppi": 55.6
+    },
+    {
+        "number": 380,
+        "city": "Playa del Carmen, Mexico",
+        "colIndex": 43,
+        "rentIndex": 25.5,
+        "colAndRent": 34.7,
+        "groceries": 40.5,
+        "restaurant": 36.2,
+        "ppi": 34.9
+    },
+    {
+        "number": 381,
+        "city": "Queretaro (Santiago de Querétaro), Mexico",
+        "colIndex": 43,
+        "rentIndex": 13.9,
+        "colAndRent": 29.1,
+        "groceries": 43.4,
+        "restaurant": 39.1,
+        "ppi": 49.5
+    },
+    {
+        "number": 382,
+        "city": "Cluj-Napoca, Romania",
+        "colIndex": 42.8,
+        "rentIndex": 13.1,
+        "colAndRent": 28.7,
+        "groceries": 38.1,
+        "restaurant": 40.6,
+        "ppi": 53.6
+    },
+    {
+        "number": 383,
+        "city": "Port Louis, Mauritius",
+        "colIndex": 42.7,
+        "rentIndex": 14.5,
+        "colAndRent": 29.2,
+        "groceries": 42.1,
+        "restaurant": 31.2,
+        "ppi": 26.9
+    },
+    {
+        "number": 384,
+        "city": "Tbilisi, Georgia",
+        "colIndex": 42.5,
+        "rentIndex": 23.7,
+        "colAndRent": 33.6,
+        "groceries": 37.2,
+        "restaurant": 45.2,
+        "ppi": 24.1
+    },
+    {
+        "number": 385,
+        "city": "Puerto Vallarta, Mexico",
+        "colIndex": 42.5,
+        "rentIndex": 26.3,
+        "colAndRent": 34.8,
+        "groceries": 38.3,
+        "restaurant": 40.8,
+        "ppi": 43.1
+    },
+    {
+        "number": 386,
+        "city": "Podgorica, Montenegro",
+        "colIndex": 42.4,
+        "rentIndex": 12.3,
+        "colAndRent": 28.1,
+        "groceries": 37.3,
+        "restaurant": 32.7,
+        "ppi": 40.5
+    },
+    {
+        "number": 387,
+        "city": "Szczecin, Poland",
+        "colIndex": 42.1,
+        "rentIndex": 18.8,
+        "colAndRent": 31,
+        "groceries": 35,
+        "restaurant": 37.7,
+        "ppi": 54.9
+    },
+    {
+        "number": 388,
+        "city": "Quezon City, Philippines",
+        "colIndex": 42,
+        "rentIndex": 12,
+        "colAndRent": 27.7,
+        "groceries": 41.3,
+        "restaurant": 21.3,
+        "ppi": 22.7
+    },
+    {
+        "number": 389,
+        "city": "Guatemala City, Guatemala",
+        "colIndex": 42,
+        "rentIndex": 15.5,
+        "colAndRent": 29.3,
+        "groceries": 40.5,
+        "restaurant": 34.4,
+        "ppi": 23.8
+    },
+    {
+        "number": 390,
+        "city": "Constanta, Romania",
+        "colIndex": 41.6,
+        "rentIndex": 10.9,
+        "colAndRent": 27,
+        "groceries": 34.4,
+        "restaurant": 36.8,
+        "ppi": 39.1
+    },
+    {
+        "number": 391,
+        "city": "Beijing, China",
+        "colIndex": 41.5,
+        "rentIndex": 29.4,
+        "colAndRent": 35.7,
+        "groceries": 39.5,
+        "restaurant": 28,
+        "ppi": 73.8
+    },
+    {
+        "number": 392,
+        "city": "Puebla, Mexico",
+        "colIndex": 41.2,
+        "rentIndex": 11.6,
+        "colAndRent": 27.1,
+        "groceries": 38,
+        "restaurant": 34.7,
+        "ppi": 35.8
+    },
+    {
+        "number": 393,
+        "city": "Brasilia, Brazil",
+        "colIndex": 40.5,
+        "rentIndex": 12.1,
+        "colAndRent": 27,
+        "groceries": 34.2,
+        "restaurant": 33.3,
+        "ppi": 39.3
+    },
+    {
+        "number": 394,
+        "city": "Novi Sad, Serbia",
+        "colIndex": 40.5,
+        "rentIndex": 13.9,
+        "colAndRent": 27.8,
+        "groceries": 36.6,
+        "restaurant": 32.4,
+        "ppi": 37.8
+    },
+    {
+        "number": 395,
+        "city": "Manila, Philippines",
+        "colIndex": 40.4,
+        "rentIndex": 17.3,
+        "colAndRent": 29.4,
+        "groceries": 39,
+        "restaurant": 26.3,
+        "ppi": 24
+    },
+    {
+        "number": 396,
+        "city": "Phuket, Thailand",
+        "colIndex": 40.3,
+        "rentIndex": 20.6,
+        "colAndRent": 30.9,
+        "groceries": 40.1,
+        "restaurant": 26.5,
+        "ppi": 27.6
+    },
+    {
+        "number": 397,
+        "city": "Varna, Bulgaria",
+        "colIndex": 40.3,
+        "rentIndex": 10.5,
+        "colAndRent": 26.1,
+        "groceries": 36,
+        "restaurant": 36.1,
+        "ppi": 48.4
+    },
+    {
+        "number": 398,
+        "city": "Harare, Zimbabwe",
+        "colIndex": 40.2,
+        "rentIndex": 12.2,
+        "colAndRent": 26.9,
+        "groceries": 33.5,
+        "restaurant": 34.8,
+        "ppi": 17.6
+    },
+    {
+        "number": 399,
+        "city": "Brasov, Romania",
+        "colIndex": 40,
+        "rentIndex": 10.9,
+        "colAndRent": 26.1,
+        "groceries": 35.2,
+        "restaurant": 37.8,
+        "ppi": 45.2
+    },
+    {
+        "number": 400,
+        "city": "Shenzhen, China",
+        "colIndex": 39.9,
+        "rentIndex": 20.3,
+        "colAndRent": 30.6,
+        "groceries": 41.8,
+        "restaurant": 28,
+        "ppi": 73.3
+    },
+    {
+        "number": 401,
+        "city": "Sarajevo, Bosnia And Herzegovina",
+        "colIndex": 39.9,
+        "rentIndex": 7.2,
+        "colAndRent": 24.3,
+        "groceries": 34.3,
+        "restaurant": 27.6,
+        "ppi": 51.1
+    },
+    {
+        "number": 402,
+        "city": "Campinas, Brazil",
+        "colIndex": 39.9,
+        "rentIndex": 9.8,
+        "colAndRent": 25.5,
+        "groceries": 32,
+        "restaurant": 34.3,
+        "ppi": 32.6
+    },
+    {
+        "number": 403,
+        "city": "Florianopolis, Brazil",
+        "colIndex": 39.6,
+        "rentIndex": 11.5,
+        "colAndRent": 26.2,
+        "groceries": 32.5,
+        "restaurant": 34.2,
+        "ppi": 31.6
+    },
+    {
+        "number": 404,
+        "city": "Cebu, Philippines",
+        "colIndex": 39.2,
+        "rentIndex": 11.3,
+        "colAndRent": 25.9,
+        "groceries": 40.8,
+        "restaurant": 22.3,
+        "ppi": 17.3
+    },
+    {
+        "number": 405,
+        "city": "Banja Luka, Bosnia And Herzegovina",
+        "colIndex": 39.1,
+        "rentIndex": 7.3,
+        "colAndRent": 24,
+        "groceries": 34.2,
+        "restaurant": 31,
+        "ppi": 39.8
+    },
+    {
+        "number": 406,
+        "city": "Burgas, Bulgaria",
+        "colIndex": 39.1,
+        "rentIndex": 9.5,
+        "colAndRent": 25,
+        "groceries": 36.1,
+        "restaurant": 35.6,
+        "ppi": 45.4
+    },
+    {
+        "number": 407,
+        "city": "Davao, Philippines",
+        "colIndex": 38.9,
+        "rentIndex": 7.5,
+        "colAndRent": 24,
+        "groceries": 37.2,
+        "restaurant": 22,
+        "ppi": 17.9
+    },
+    {
+        "number": 408,
+        "city": "Hangzhou, China",
+        "colIndex": 38.9,
+        "rentIndex": 13.9,
+        "colAndRent": 27,
+        "groceries": 44.6,
+        "restaurant": 28.4,
+        "ppi": 56.4
+    },
+    {
+        "number": 409,
+        "city": "Pattaya, Thailand",
+        "colIndex": 38.9,
+        "rentIndex": 11.8,
+        "colAndRent": 26,
+        "groceries": 41.2,
+        "restaurant": 23.6,
+        "ppi": 25.6
+    },
+    {
+        "number": 410,
+        "city": "Porto Alegre, Brazil",
+        "colIndex": 38.6,
+        "rentIndex": 9.7,
+        "colAndRent": 24.8,
+        "groceries": 32.2,
+        "restaurant": 29.2,
+        "ppi": 26.8
+    },
+    {
+        "number": 411,
+        "city": "Oradea, Romania",
+        "colIndex": 38.6,
+        "rentIndex": 7.7,
+        "colAndRent": 23.8,
+        "groceries": 35.1,
+        "restaurant": 41.4,
+        "ppi": 40.2
+    },
+    {
+        "number": 412,
+        "city": "Goiania, Brazil",
+        "colIndex": 38.4,
+        "rentIndex": 7.4,
+        "colAndRent": 23.7,
+        "groceries": 31.9,
+        "restaurant": 28.8,
+        "ppi": 24
+    },
+    {
+        "number": 413,
+        "city": "Plovdiv, Bulgaria",
+        "colIndex": 38.3,
+        "rentIndex": 8.1,
+        "colAndRent": 23.9,
+        "groceries": 35.8,
+        "restaurant": 34.5,
+        "ppi": 53.5
+    },
+    {
+        "number": 414,
+        "city": "Johannesburg, South Africa",
+        "colIndex": 38.2,
+        "rentIndex": 12,
+        "colAndRent": 25.7,
+        "groceries": 29.1,
+        "restaurant": 33,
+        "ppi": 87.3
+    },
+    {
+        "number": 415,
+        "city": "Erbil (Irbil), Iraq",
+        "colIndex": 38,
+        "rentIndex": 12,
+        "colAndRent": 25.6,
+        "groceries": 29.3,
+        "restaurant": 32.4,
+        "ppi": 37.2
+    },
+    {
+        "number": 416,
+        "city": "Guayaquil, Ecuador",
+        "colIndex": 38,
+        "rentIndex": 12.3,
+        "colAndRent": 25.8,
+        "groceries": 32.7,
+        "restaurant": 30.5,
+        "ppi": 41
+    },
+    {
+        "number": 417,
+        "city": "Curitiba, Brazil",
+        "colIndex": 37.9,
+        "rentIndex": 8.6,
+        "colAndRent": 23.9,
+        "groceries": 32.4,
+        "restaurant": 29.5,
+        "ppi": 35.1
+    },
+    {
+        "number": 418,
+        "city": "Port Elizabeth, South Africa",
+        "colIndex": 37.8,
+        "rentIndex": 13.6,
+        "colAndRent": 26.3,
+        "groceries": 28.7,
+        "restaurant": 38.1,
+        "ppi": 60.5
+    },
+    {
+        "number": 419,
+        "city": "Timisoara, Romania",
+        "colIndex": 37.7,
+        "rentIndex": 10,
+        "colAndRent": 24.5,
+        "groceries": 32.9,
+        "restaurant": 32.8,
+        "ppi": 52.2
+    },
+    {
+        "number": 420,
+        "city": "Minsk, Belarus",
+        "colIndex": 37.7,
+        "rentIndex": 10.7,
+        "colAndRent": 24.9,
+        "groceries": 31.7,
+        "restaurant": 40.5,
+        "ppi": 37.8
+    },
+    {
+        "number": 421,
+        "city": "Belo Horizonte, Brazil",
+        "colIndex": 37.7,
+        "rentIndex": 8.9,
+        "colAndRent": 24,
+        "groceries": 31.6,
+        "restaurant": 28.3,
+        "ppi": 24.2
+    },
+    {
+        "number": 422,
+        "city": "Chisinau, Moldova",
+        "colIndex": 37.5,
+        "rentIndex": 10.3,
+        "colAndRent": 24.6,
+        "groceries": 30.7,
+        "restaurant": 31.4,
+        "ppi": 33.6
+    },
+    {
+        "number": 423,
+        "city": "Skopje, North Macedonia",
+        "colIndex": 37.5,
+        "rentIndex": 7.8,
+        "colAndRent": 23.3,
+        "groceries": 32.4,
+        "restaurant": 29,
+        "ppi": 36.2
+    },
+    {
+        "number": 424,
+        "city": "Sibiu, Romania",
+        "colIndex": 37.4,
+        "rentIndex": 9,
+        "colAndRent": 23.9,
+        "groceries": 31.8,
+        "restaurant": 32.1,
+        "ppi": 47.4
+    },
+    {
+        "number": 425,
+        "city": "Iasi, Romania",
+        "colIndex": 37.3,
+        "rentIndex": 9.7,
+        "colAndRent": 24.2,
+        "groceries": 32.3,
+        "restaurant": 33.8,
+        "ppi": 47.4
+    },
+    {
+        "number": 426,
+        "city": "Sao Jose dos Campos, Brazil",
+        "colIndex": 37.1,
+        "rentIndex": 9.3,
+        "colAndRent": 23.8,
+        "groceries": 32,
+        "restaurant": 28.8,
+        "ppi": 34.6
+    },
+    {
+        "number": 427,
+        "city": "Lima, Peru",
+        "colIndex": 37,
+        "rentIndex": 14,
+        "colAndRent": 26,
+        "groceries": 34.7,
+        "restaurant": 27.5,
+        "ppi": 27.2
+    },
+    {
+        "number": 428,
+        "city": "Tuzla, Bosnia And Herzegovina",
+        "colIndex": 36.6,
+        "rentIndex": 5.7,
+        "colAndRent": 21.9,
+        "groceries": 31.9,
+        "restaurant": 24.9,
+        "ppi": 41.4
+    },
+    {
+        "number": 429,
+        "city": "Ho Chi Minh City, Vietnam",
+        "colIndex": 36.5,
+        "rentIndex": 15.3,
+        "colAndRent": 26.4,
+        "groceries": 37.4,
+        "restaurant": 19.8,
+        "ppi": 28.1
+    },
+    {
+        "number": 430,
+        "city": "Moscow, Russia",
+        "colIndex": 36.4,
+        "rentIndex": 19.9,
+        "colAndRent": 28.6,
+        "groceries": 29.5,
+        "restaurant": 34,
+        "ppi": 55.9
+    },
+    {
+        "number": 431,
+        "city": "Recife, Brazil",
+        "colIndex": 36.3,
+        "rentIndex": 7.4,
+        "colAndRent": 22.5,
+        "groceries": 31.1,
+        "restaurant": 26.5,
+        "ppi": 37.5
+    },
+    {
+        "number": 432,
+        "city": "Fortaleza, Brazil",
+        "colIndex": 36.2,
+        "rentIndex": 6.6,
+        "colAndRent": 22.1,
+        "groceries": 31.8,
+        "restaurant": 28.4,
+        "ppi": 18.7
+    },
+    {
+        "number": 433,
+        "city": "Nis, Serbia",
+        "colIndex": 36.1,
+        "rentIndex": 8.2,
+        "colAndRent": 22.8,
+        "groceries": 30.7,
+        "restaurant": 30.7,
+        "ppi": 39.7
+    },
+    {
+        "number": 434,
+        "city": "Cuenca, Ecuador",
+        "colIndex": 36.1,
+        "rentIndex": 11.4,
+        "colAndRent": 24.3,
+        "groceries": 33.5,
+        "restaurant": 28.6,
+        "ppi": 29.8
+    },
+    {
+        "number": 435,
+        "city": "Guangzhou, China",
+        "colIndex": 36.1,
+        "rentIndex": 14.6,
+        "colAndRent": 25.9,
+        "groceries": 35.9,
+        "restaurant": 24.2,
+        "ppi": 67.1
+    },
+    {
+        "number": 436,
+        "city": "Kuala Lumpur, Malaysia",
+        "colIndex": 35.9,
+        "rentIndex": 11.8,
+        "colAndRent": 24.4,
+        "groceries": 38.6,
+        "restaurant": 25.1,
+        "ppi": 71.3
+    },
+    {
+        "number": 437,
+        "city": "Colombo, Sri Lanka",
+        "colIndex": 35.8,
+        "rentIndex": 8.6,
+        "colAndRent": 22.9,
+        "groceries": 44.8,
+        "restaurant": 18.1,
+        "ppi": 14.6
+    },
+    {
+        "number": 438,
+        "city": "Baghdad, Iraq",
+        "colIndex": 35.7,
+        "rentIndex": 12.3,
+        "colAndRent": 24.6,
+        "groceries": 27.9,
+        "restaurant": 32.6,
+        "ppi": 33.9
+    },
+    {
+        "number": 439,
+        "city": "Craiova, Romania",
+        "colIndex": 35.4,
+        "rentIndex": 8,
+        "colAndRent": 22.3,
+        "groceries": 30.5,
+        "restaurant": 29,
+        "ppi": 46.9
+    },
+    {
+        "number": 440,
+        "city": "Jakarta, Indonesia",
+        "colIndex": 35.2,
+        "rentIndex": 15.5,
+        "colAndRent": 25.8,
+        "groceries": 38,
+        "restaurant": 21.5,
+        "ppi": 27
+    },
+    {
+        "number": 441,
+        "city": "Chiang Mai, Thailand",
+        "colIndex": 35.2,
+        "rentIndex": 9.7,
+        "colAndRent": 23.1,
+        "groceries": 38.6,
+        "restaurant": 16.1,
+        "ppi": 32.4
+    },
+    {
+        "number": 442,
+        "city": "Pretoria, South Africa",
+        "colIndex": 35.1,
+        "rentIndex": 10.8,
+        "colAndRent": 23.5,
+        "groceries": 26.8,
+        "restaurant": 29.3,
+        "ppi": 86.9
+    },
+    {
+        "number": 443,
+        "city": "Almaty, Kazakhstan",
+        "colIndex": 35.1,
+        "rentIndex": 20.3,
+        "colAndRent": 28.1,
+        "groceries": 31.3,
+        "restaurant": 33,
+        "ppi": 31.4
+    },
+    {
+        "number": 444,
+        "city": "Kuching, Malaysia",
+        "colIndex": 35,
+        "rentIndex": 10.3,
+        "colAndRent": 23.3,
+        "groceries": 37.3,
+        "restaurant": 19.4,
+        "ppi": 27.8
+    },
+    {
+        "number": 445,
+        "city": "Hanoi, Vietnam",
+        "colIndex": 35,
+        "rentIndex": 11,
+        "colAndRent": 23.6,
+        "groceries": 36.4,
+        "restaurant": 19.2,
+        "ppi": 36.5
+    },
+    {
+        "number": 446,
+        "city": "Astana (Nur-Sultan), Kazakhstan",
+        "colIndex": 35,
+        "rentIndex": 12.6,
+        "colAndRent": 24.3,
+        "groceries": 30.9,
+        "restaurant": 33.1,
+        "ppi": 39.1
+    },
+    {
+        "number": 447,
+        "city": "Cape Town, South Africa",
+        "colIndex": 34.8,
+        "rentIndex": 17.7,
+        "colAndRent": 26.7,
+        "groceries": 27.8,
+        "restaurant": 34.2,
+        "ppi": 73.9
+    },
+    {
+        "number": 448,
+        "city": "Chengdu, China",
+        "colIndex": 34.8,
+        "rentIndex": 9.5,
+        "colAndRent": 22.7,
+        "groceries": 36,
+        "restaurant": 23,
+        "ppi": 55.5
+    },
+    {
+        "number": 449,
+        "city": "Quito, Ecuador",
+        "colIndex": 34.6,
+        "rentIndex": 9.6,
+        "colAndRent": 22.7,
+        "groceries": 31.5,
+        "restaurant": 30.4,
+        "ppi": 31.9
+    },
+    {
+        "number": 450,
+        "city": "Yekaterinburg, Russia",
+        "colIndex": 34.3,
+        "rentIndex": 10.5,
+        "colAndRent": 23,
+        "groceries": 27.3,
+        "restaurant": 30.6,
+        "ppi": 49.9
+    },
+    {
+        "number": 451,
+        "city": "Saint Petersburg, Russia",
+        "colIndex": 34.3,
+        "rentIndex": 12.8,
+        "colAndRent": 24.1,
+        "groceries": 26.5,
+        "restaurant": 31.7,
+        "ppi": 47.2
+    },
+    {
+        "number": 452,
+        "city": "Casablanca, Morocco",
+        "colIndex": 34.2,
+        "rentIndex": 11.2,
+        "colAndRent": 23.3,
+        "groceries": 29.9,
+        "restaurant": 26.5,
+        "ppi": 33.7
+    },
+    {
+        "number": 453,
+        "city": "Suva, Fiji",
+        "colIndex": 34.1,
+        "rentIndex": 17.3,
+        "colAndRent": 26.1,
+        "groceries": 35.2,
+        "restaurant": 30.4,
+        "ppi": 78.9
+    },
+    {
+        "number": 454,
+        "city": "Durban, South Africa",
+        "colIndex": 33.7,
+        "rentIndex": 10.5,
+        "colAndRent": 22.7,
+        "groceries": 25,
+        "restaurant": 31.2,
+        "ppi": 71.1
+    },
+    {
+        "number": 455,
+        "city": "Kiev (Kyiv), Ukraine",
+        "colIndex": 33.7,
+        "rentIndex": 11.5,
+        "colAndRent": 23.1,
+        "groceries": 28.4,
+        "restaurant": 31.2,
+        "ppi": 36.2
+    },
+    {
+        "number": 456,
+        "city": "Gaborone, Botswana",
+        "colIndex": 33.6,
+        "rentIndex": 7.8,
+        "colAndRent": 21.3,
+        "groceries": 29.8,
+        "restaurant": 27.7,
+        "ppi": 42.2
+    },
+    {
+        "number": 457,
+        "city": "Rabat, Morocco",
+        "colIndex": 33.6,
+        "rentIndex": 12.2,
+        "colAndRent": 23.4,
+        "groceries": 29.5,
+        "restaurant": 26,
+        "ppi": 28
+    },
+    {
+        "number": 458,
+        "city": "Istanbul, Turkey",
+        "colIndex": 33.4,
+        "rentIndex": 15.6,
+        "colAndRent": 25,
+        "groceries": 29.6,
+        "restaurant": 27.8,
+        "ppi": 31.1
+    },
+    {
+        "number": 459,
+        "city": "Nanjing, China",
+        "colIndex": 33.4,
+        "rentIndex": 13,
+        "colAndRent": 23.7,
+        "groceries": 35.2,
+        "restaurant": 19.9,
+        "ppi": 68.7
+    },
+    {
+        "number": 460,
+        "city": "Marrakech, Morocco",
+        "colIndex": 33.3,
+        "rentIndex": 8.7,
+        "colAndRent": 21.6,
+        "groceries": 26.9,
+        "restaurant": 28.9,
+        "ppi": 27.9
+    },
+    {
+        "number": 461,
+        "city": "Ulaanbaatar, Mongolia",
+        "colIndex": 33.2,
+        "rentIndex": 13.4,
+        "colAndRent": 23.8,
+        "groceries": 35,
+        "restaurant": 24.7,
+        "ppi": 21.2
+    },
+    {
+        "number": 462,
+        "city": "Baku, Azerbaijan",
+        "colIndex": 33.1,
+        "rentIndex": 10.4,
+        "colAndRent": 22.3,
+        "groceries": 28.9,
+        "restaurant": 32.6,
+        "ppi": 28.9
+    },
+    {
+        "number": 463,
+        "city": "Kampala, Uganda",
+        "colIndex": 32.9,
+        "rentIndex": 10.7,
+        "colAndRent": 22.3,
+        "groceries": 28.4,
+        "restaurant": 24,
+        "ppi": 12.5
+    },
+    {
+        "number": 464,
+        "city": "Baguio, Philippines",
+        "colIndex": 32.8,
+        "rentIndex": 6.8,
+        "colAndRent": 20.4,
+        "groceries": 27.7,
+        "restaurant": 17.8,
+        "ppi": 24.7
+    },
+    {
+        "number": 465,
+        "city": "Kaliningrad, Russia",
+        "colIndex": 32.7,
+        "rentIndex": 6.8,
+        "colAndRent": 20.4,
+        "groceries": 26,
+        "restaurant": 30.7,
+        "ppi": 32.6
+    },
+    {
+        "number": 466,
+        "city": "Novosibirsk, Russia",
+        "colIndex": 32.7,
+        "rentIndex": 8.5,
+        "colAndRent": 21.2,
+        "groceries": 26.9,
+        "restaurant": 29.5,
+        "ppi": 35.4
+    },
+    {
+        "number": 467,
+        "city": "Algiers, Algeria",
+        "colIndex": 32.5,
+        "rentIndex": 6,
+        "colAndRent": 19.9,
+        "groceries": 35.8,
+        "restaurant": 18.9,
+        "ppi": 23.5
+    },
+    {
+        "number": 468,
+        "city": "Bitola, North Macedonia",
+        "colIndex": 32.4,
+        "rentIndex": 5,
+        "colAndRent": 19.4,
+        "groceries": 30.8,
+        "restaurant": 18.8,
+        "ppi": 34
+    },
+    {
+        "number": 469,
+        "city": "Santa Cruz, Bolivia",
+        "colIndex": 32.4,
+        "rentIndex": 9.7,
+        "colAndRent": 21.6,
+        "groceries": 26.1,
+        "restaurant": 28.5,
+        "ppi": 27.2
+    },
+    {
+        "number": 470,
+        "city": "Petaling Jaya, Malaysia",
+        "colIndex": 32.4,
+        "rentIndex": 10.6,
+        "colAndRent": 22,
+        "groceries": 34,
+        "restaurant": 24.1,
+        "ppi": 72.3
+    },
+    {
+        "number": 471,
+        "city": "Nizhny Novgorod, Russia",
+        "colIndex": 32.3,
+        "rentIndex": 8.1,
+        "colAndRent": 20.8,
+        "groceries": 25.3,
+        "restaurant": 35,
+        "ppi": 36.7
+    },
+    {
+        "number": 472,
+        "city": "Penang, Malaysia",
+        "colIndex": 32.3,
+        "rentIndex": 10.6,
+        "colAndRent": 21.9,
+        "groceries": 35.7,
+        "restaurant": 18.6,
+        "ppi": 60.1
+    },
+    {
+        "number": 473,
+        "city": "Johor Bahru, Malaysia",
+        "colIndex": 32.2,
+        "rentIndex": 7.2,
+        "colAndRent": 20.3,
+        "groceries": 36.5,
+        "restaurant": 20.3,
+        "ppi": 61.9
+    },
+    {
+        "number": 474,
+        "city": "Da Nang, Vietnam",
+        "colIndex": 32.2,
+        "rentIndex": 9.3,
+        "colAndRent": 21.3,
+        "groceries": 34.3,
+        "restaurant": 16.2,
+        "ppi": 22.4
+    },
+    {
+        "number": 475,
+        "city": "Dnipro, Ukraine",
+        "colIndex": 32,
+        "rentIndex": 8.6,
+        "colAndRent": 20.8,
+        "groceries": 26.8,
+        "restaurant": 29.7,
+        "ppi": 32
+    },
+    {
+        "number": 476,
+        "city": "Odessa (Odesa), Ukraine",
+        "colIndex": 31.7,
+        "rentIndex": 7.4,
+        "colAndRent": 20.2,
+        "groceries": 27.9,
+        "restaurant": 29.8,
+        "ppi": 27.8
+    },
+    {
+        "number": 477,
+        "city": "Nairobi, Kenya",
+        "colIndex": 31.5,
+        "rentIndex": 10.2,
+        "colAndRent": 21.4,
+        "groceries": 29.1,
+        "restaurant": 26,
+        "ppi": 29.5
+    },
+    {
+        "number": 478,
+        "city": "Pristina, Kosovo (Disputed Territory)",
+        "colIndex": 31.5,
+        "rentIndex": 9.3,
+        "colAndRent": 20.9,
+        "groceries": 27.4,
+        "restaurant": 24.8,
+        "ppi": 35.4
+    },
+    {
+        "number": 479,
+        "city": "Kigali, Rwanda",
+        "colIndex": 31.1,
+        "rentIndex": 12.8,
+        "colAndRent": 22.4,
+        "groceries": 31,
+        "restaurant": 24.3,
+        "ppi": 21.8
+    },
+    {
+        "number": 480,
+        "city": "Tangier, Morocco",
+        "colIndex": 31,
+        "rentIndex": 9.4,
+        "colAndRent": 20.7,
+        "groceries": 30.7,
+        "restaurant": 26.8,
+        "ppi": 28.8
+    },
+    {
+        "number": 481,
+        "city": "Tunis, Tunisia",
+        "colIndex": 31,
+        "rentIndex": 6.4,
+        "colAndRent": 19.3,
+        "groceries": 29.5,
+        "restaurant": 18.1,
+        "ppi": 22.8
+    },
+    {
+        "number": 482,
+        "city": "Kazan, Russia",
+        "colIndex": 30.9,
+        "rentIndex": 8.1,
+        "colAndRent": 20.1,
+        "groceries": 24.6,
+        "restaurant": 28,
+        "ppi": 34.7
+    },
+    {
+        "number": 483,
+        "city": "Kharkiv, Ukraine",
+        "colIndex": 30.8,
+        "rentIndex": 9.9,
+        "colAndRent": 20.8,
+        "groceries": 27.6,
+        "restaurant": 23.5,
+        "ppi": 29.4
+    },
+    {
+        "number": 484,
+        "city": "Windhoek, Namibia",
+        "colIndex": 30.8,
+        "rentIndex": 11.3,
+        "colAndRent": 21.5,
+        "groceries": 27.2,
+        "restaurant": 32.8,
+        "ppi": 39.2
+    },
+    {
+        "number": 485,
+        "city": "Agadir, Morocco",
+        "colIndex": 30.8,
+        "rentIndex": 5.1,
+        "colAndRent": 18.6,
+        "groceries": 26.7,
+        "restaurant": 30.7,
+        "ppi": 28.7
+    },
+    {
+        "number": 486,
+        "city": "Tehran, Iran",
+        "colIndex": 30.8,
+        "rentIndex": 13.6,
+        "colAndRent": 22.6,
+        "groceries": 22.5,
+        "restaurant": 21.8,
+        "ppi": 18.1
+    },
+    {
+        "number": 487,
+        "city": "Medellin, Colombia",
+        "colIndex": 30.7,
+        "rentIndex": 10.2,
+        "colAndRent": 20.9,
+        "groceries": 28.4,
+        "restaurant": 23.9,
+        "ppi": 28
+    },
+    {
+        "number": 488,
+        "city": "Surabaya, Indonesia",
+        "colIndex": 30.6,
+        "rentIndex": 6.3,
+        "colAndRent": 19.1,
+        "groceries": 33.2,
+        "restaurant": 14.4,
+        "ppi": 28.2
+    },
+    {
+        "number": 489,
+        "city": "Krasnodar, Russia",
+        "colIndex": 30.6,
+        "rentIndex": 7.3,
+        "colAndRent": 19.5,
+        "groceries": 24.5,
+        "restaurant": 35,
+        "ppi": 37.6
+    },
+    {
+        "number": 490,
+        "city": "Bishkek, Kyrgyzstan",
+        "colIndex": 30.6,
+        "rentIndex": 11.6,
+        "colAndRent": 21.5,
+        "groceries": 27.1,
+        "restaurant": 24.9,
+        "ppi": 22.6
+    },
+    {
+        "number": 491,
+        "city": "Asuncion, Paraguay",
+        "colIndex": 30.3,
+        "rentIndex": 11.5,
+        "colAndRent": 21.3,
+        "groceries": 25.6,
+        "restaurant": 23.3,
+        "ppi": 25.8
+    },
+    {
+        "number": 492,
+        "city": "Buenos Aires, Argentina",
+        "colIndex": 30.2,
+        "rentIndex": 10.1,
+        "colAndRent": 20.6,
+        "groceries": 25.3,
+        "restaurant": 29.2,
+        "ppi": 30.2
+    },
+    {
+        "number": 493,
+        "city": "Lviv, Ukraine",
+        "colIndex": 30.1,
+        "rentIndex": 11,
+        "colAndRent": 21,
+        "groceries": 27,
+        "restaurant": 22.7,
+        "ppi": 36.1
+    },
+    {
+        "number": 494,
+        "city": "Cartagena, Colombia",
+        "colIndex": 30.1,
+        "rentIndex": 12.5,
+        "colAndRent": 21.7,
+        "groceries": 27.2,
+        "restaurant": 20.8,
+        "ppi": 27.4
+    },
+    {
+        "number": 495,
+        "city": "Accra, Ghana",
+        "colIndex": 29.7,
+        "rentIndex": 20.2,
+        "colAndRent": 25.2,
+        "groceries": 28.7,
+        "restaurant": 26.2,
+        "ppi": 13
+    },
+    {
+        "number": 496,
+        "city": "Cali, Colombia",
+        "colIndex": 29.7,
+        "rentIndex": 6.4,
+        "colAndRent": 18.6,
+        "groceries": 29.2,
+        "restaurant": 20.8,
+        "ppi": 35.2
+    },
+    {
+        "number": 497,
+        "city": "Tashkent, Uzbekistan",
+        "colIndex": 29.5,
+        "rentIndex": 14.4,
+        "colAndRent": 22.3,
+        "groceries": 27.1,
+        "restaurant": 26.8,
+        "ppi": 25.6
+    },
+    {
+        "number": 498,
+        "city": "Dar es Salaam, Tanzania",
+        "colIndex": 29.4,
+        "rentIndex": 11.5,
+        "colAndRent": 20.9,
+        "groceries": 27.9,
+        "restaurant": 20.9,
+        "ppi": 18.9
+    },
+    {
+        "number": 499,
+        "city": "Damascus, Syria",
+        "colIndex": 29.3,
+        "rentIndex": 6.4,
+        "colAndRent": 18.4,
+        "groceries": 26.8,
+        "restaurant": 21.6,
+        "ppi": 4
+    },
+    {
+        "number": 500,
+        "city": "Bogota, Colombia",
+        "colIndex": 29.3,
+        "rentIndex": 10.2,
+        "colAndRent": 20.2,
+        "groceries": 28,
+        "restaurant": 21,
+        "ppi": 27.6
+    },
+    {
+        "number": 501,
+        "city": "Bursa, Turkey",
+        "colIndex": 28.8,
+        "rentIndex": 6.1,
+        "colAndRent": 18,
+        "groceries": 24.1,
+        "restaurant": 21.3,
+        "ppi": 37.7
+    },
+    {
+        "number": 502,
+        "city": "Dhaka, Bangladesh",
+        "colIndex": 28.4,
+        "rentIndex": 4.3,
+        "colAndRent": 16.9,
+        "groceries": 28.2,
+        "restaurant": 17.1,
+        "ppi": 26
+    },
+    {
+        "number": 503,
+        "city": "Kathmandu, Nepal",
+        "colIndex": 28,
+        "rentIndex": 5.4,
+        "colAndRent": 17.3,
+        "groceries": 24.5,
+        "restaurant": 21.4,
+        "ppi": 19.5
+    },
+    {
+        "number": 504,
+        "city": "Noida, India",
+        "colIndex": 28,
+        "rentIndex": 5.3,
+        "colAndRent": 17.2,
+        "groceries": 25.9,
+        "restaurant": 26.4,
+        "ppi": 75.4
+    },
+    {
+        "number": 505,
+        "city": "Sfax, Tunisia",
+        "colIndex": 27.7,
+        "rentIndex": 4.7,
+        "colAndRent": 16.7,
+        "groceries": 28,
+        "restaurant": 15.9,
+        "ppi": 26.9
+    },
+    {
+        "number": 506,
+        "city": "Ankara, Turkey",
+        "colIndex": 27.6,
+        "rentIndex": 8.8,
+        "colAndRent": 18.7,
+        "groceries": 24.8,
+        "restaurant": 22.9,
+        "ppi": 34
+    },
+    {
+        "number": 507,
+        "city": "Izmir, Turkey",
+        "colIndex": 27.4,
+        "rentIndex": 8,
+        "colAndRent": 18.2,
+        "groceries": 23.9,
+        "restaurant": 19.2,
+        "ppi": 32.8
+    },
+    {
+        "number": 508,
+        "city": "Gurgaon, India",
+        "colIndex": 27.3,
+        "rentIndex": 8.5,
+        "colAndRent": 18.3,
+        "groceries": 27.5,
+        "restaurant": 22.4,
+        "ppi": 87.1
+    },
+    {
+        "number": 509,
+        "city": "Antalya, Turkey",
+        "colIndex": 26.6,
+        "rentIndex": 14.5,
+        "colAndRent": 20.8,
+        "groceries": 23.1,
+        "restaurant": 22.7,
+        "ppi": 30.1
+    },
+    {
+        "number": 510,
+        "city": "Barranquilla, Colombia",
+        "colIndex": 26.4,
+        "rentIndex": 7.7,
+        "colAndRent": 17.5,
+        "groceries": 24.5,
+        "restaurant": 19.9,
+        "ppi": 29.1
+    },
+    {
+        "number": 511,
+        "city": "Sousse, Tunisia",
+        "colIndex": 26.3,
+        "rentIndex": 4.8,
+        "colAndRent": 16,
+        "groceries": 26.1,
+        "restaurant": 14.6,
+        "ppi": 33.5
+    },
+    {
+        "number": 512,
+        "city": "Kayseri, Turkey",
+        "colIndex": 26.2,
+        "rentIndex": 4.9,
+        "colAndRent": 16.1,
+        "groceries": 22.1,
+        "restaurant": 18.7,
+        "ppi": 35.9
+    },
+    {
+        "number": 513,
+        "city": "Mashhad, Iran",
+        "colIndex": 26.2,
+        "rentIndex": 9,
+        "colAndRent": 18,
+        "groceries": 18.6,
+        "restaurant": 24.6,
+        "ppi": 26
+    },
+    {
+        "number": 514,
+        "city": "Mumbai, India",
+        "colIndex": 26.1,
+        "rentIndex": 17.8,
+        "colAndRent": 22.2,
+        "groceries": 25,
+        "restaurant": 23.5,
+        "ppi": 53
+    },
+    {
+        "number": 515,
+        "city": "Chittagong, Bangladesh",
+        "colIndex": 26.1,
+        "rentIndex": 3.2,
+        "colAndRent": 15.2,
+        "groceries": 23.8,
+        "restaurant": 18.8,
+        "ppi": 26.5
+    },
+    {
+        "number": 516,
+        "city": "Lagos, Nigeria",
+        "colIndex": 26.1,
+        "rentIndex": 15.7,
+        "colAndRent": 21.1,
+        "groceries": 27,
+        "restaurant": 21.9,
+        "ppi": 11.5
+    },
+    {
+        "number": 517,
+        "city": "Bangalore, India",
+        "colIndex": 26,
+        "rentIndex": 8.8,
+        "colAndRent": 17.8,
+        "groceries": 26,
+        "restaurant": 21,
+        "ppi": 123
+    },
+    {
+        "number": 518,
+        "city": "Tripoli, Libya",
+        "colIndex": 25.8,
+        "rentIndex": 6.4,
+        "colAndRent": 16.6,
+        "groceries": 23.6,
+        "restaurant": 22.6,
+        "ppi": 27.8
+    },
+    {
+        "number": 519,
+        "city": "Hyderabad, India",
+        "colIndex": 25.7,
+        "rentIndex": 6,
+        "colAndRent": 16.3,
+        "groceries": 26.3,
+        "restaurant": 19.2,
+        "ppi": 65.9
+    },
+    {
+        "number": 520,
+        "city": "Navi Mumbai, India",
+        "colIndex": 25.7,
+        "rentIndex": 9.8,
+        "colAndRent": 18.1,
+        "groceries": 27.1,
+        "restaurant": 19,
+        "ppi": 82.1
+    },
+    {
+        "number": 521,
+        "city": "Eskisehir, Turkey",
+        "colIndex": 25.7,
+        "rentIndex": 4.8,
+        "colAndRent": 15.7,
+        "groceries": 23.4,
+        "restaurant": 17.8,
+        "ppi": 34.8
+    },
+    {
+        "number": 522,
+        "city": "Delhi, India",
+        "colIndex": 25.5,
+        "rentIndex": 7.8,
+        "colAndRent": 17,
+        "groceries": 23.4,
+        "restaurant": 22.7,
+        "ppi": 60.1
+    },
+    {
+        "number": 523,
+        "city": "Ahmedabad, India",
+        "colIndex": 25.4,
+        "rentIndex": 8.3,
+        "colAndRent": 17.3,
+        "groceries": 26.4,
+        "restaurant": 19.7,
+        "ppi": 41.1
+    },
+    {
+        "number": 524,
+        "city": "Isfahan (Esfahan), Iran",
+        "colIndex": 25.4,
+        "rentIndex": 13.6,
+        "colAndRent": 19.8,
+        "groceries": 18,
+        "restaurant": 17.4,
+        "ppi": 20.8
+    },
+    {
+        "number": 525,
+        "city": "Cairo, Egypt",
+        "colIndex": 25.2,
+        "rentIndex": 4.8,
+        "colAndRent": 15.5,
+        "groceries": 23.5,
+        "restaurant": 19.9,
+        "ppi": 17.5
+    },
+    {
+        "number": 526,
+        "city": "New Cairo, Egypt",
+        "colIndex": 25.1,
+        "rentIndex": 6,
+        "colAndRent": 16,
+        "groceries": 21,
+        "restaurant": 22.6,
+        "ppi": 21.9
+    },
+    {
+        "number": 527,
+        "city": "Pune, India",
+        "colIndex": 24.5,
+        "rentIndex": 6.7,
+        "colAndRent": 16.1,
+        "groceries": 24.4,
+        "restaurant": 20.9,
+        "ppi": 93.8
+    },
+    {
+        "number": 528,
+        "city": "Kocaeli, Turkey",
+        "colIndex": 24.4,
+        "rentIndex": 5.3,
+        "colAndRent": 15.3,
+        "groceries": 22.7,
+        "restaurant": 15.9,
+        "ppi": 43.8
+    },
+    {
+        "number": 529,
+        "city": "Surat, India",
+        "colIndex": 24.3,
+        "rentIndex": 13.4,
+        "colAndRent": 19.1,
+        "groceries": 26.3,
+        "restaurant": 16.5,
+        "ppi": 33.5
+    },
+    {
+        "number": 530,
+        "city": "Vadodara, India",
+        "colIndex": 24.2,
+        "rentIndex": 3.4,
+        "colAndRent": 14.3,
+        "groceries": 25.4,
+        "restaurant": 17.4,
+        "ppi": 50
+    },
+    {
+        "number": 531,
+        "city": "Adana, Turkey",
+        "colIndex": 24,
+        "rentIndex": 4.6,
+        "colAndRent": 14.7,
+        "groceries": 21.7,
+        "restaurant": 17.9,
+        "ppi": 38.6
+    },
+    {
+        "number": 532,
+        "city": "Alanya, Turkey",
+        "colIndex": 23.9,
+        "rentIndex": 14.3,
+        "colAndRent": 19.3,
+        "groceries": 20.7,
+        "restaurant": 23.9,
+        "ppi": 29
+    },
+    {
+        "number": 533,
+        "city": "Jaipur, India",
+        "colIndex": 23.9,
+        "rentIndex": 5.2,
+        "colAndRent": 15,
+        "groceries": 22.9,
+        "restaurant": 16.7,
+        "ppi": 39.5
+    },
+    {
+        "number": 534,
+        "city": "Chennai, India",
+        "colIndex": 23.6,
+        "rentIndex": 5.6,
+        "colAndRent": 15.1,
+        "groceries": 25,
+        "restaurant": 16,
+        "ppi": 60.4
+    },
+    {
+        "number": 535,
+        "city": "Bhopal, India",
+        "colIndex": 23.6,
+        "rentIndex": 2.7,
+        "colAndRent": 13.7,
+        "groceries": 23.8,
+        "restaurant": 16.8,
+        "ppi": 50.8
+    },
+    {
+        "number": 536,
+        "city": "Bhubaneswar, India",
+        "colIndex": 23.2,
+        "rentIndex": 3.7,
+        "colAndRent": 13.9,
+        "groceries": 23.4,
+        "restaurant": 15,
+        "ppi": 46.2
+    },
+    {
+        "number": 537,
+        "city": "Mersin, Turkey",
+        "colIndex": 23,
+        "rentIndex": 7,
+        "colAndRent": 15.4,
+        "groceries": 20.2,
+        "restaurant": 18,
+        "ppi": 36.6
+    },
+    {
+        "number": 538,
+        "city": "Kolkata, India",
+        "colIndex": 22.8,
+        "rentIndex": 4.8,
+        "colAndRent": 14.2,
+        "groceries": 23.4,
+        "restaurant": 16.9,
+        "ppi": 49.8
+    },
+    {
+        "number": 539,
+        "city": "Bucaramanga, Colombia",
+        "colIndex": 22.6,
+        "rentIndex": 5,
+        "colAndRent": 14.2,
+        "groceries": 18.6,
+        "restaurant": 16.5,
+        "ppi": 29.6
+    },
+    {
+        "number": 540,
+        "city": "Konya, Turkey",
+        "colIndex": 22.6,
+        "rentIndex": 4.4,
+        "colAndRent": 13.9,
+        "groceries": 20.2,
+        "restaurant": 16.8,
+        "ppi": 36.7
+    },
+    {
+        "number": 541,
+        "city": "Kochi, India",
+        "colIndex": 22.4,
+        "rentIndex": 4.6,
+        "colAndRent": 14,
+        "groceries": 24.3,
+        "restaurant": 12.1,
+        "ppi": 68.3
+    },
+    {
+        "number": 542,
+        "city": "Lucknow (Lakhnau), India",
+        "colIndex": 21.8,
+        "rentIndex": 4.1,
+        "colAndRent": 13.4,
+        "groceries": 19.5,
+        "restaurant": 15,
+        "ppi": 55.3
+    },
+    {
+        "number": 543,
+        "city": "Coimbatore, India",
+        "colIndex": 21.3,
+        "rentIndex": 4,
+        "colAndRent": 13,
+        "groceries": 22.3,
+        "restaurant": 12.9,
+        "ppi": 48
+    },
+    {
+        "number": 544,
+        "city": "Indore, India",
+        "colIndex": 21.2,
+        "rentIndex": 3.7,
+        "colAndRent": 12.9,
+        "groceries": 21.3,
+        "restaurant": 17.2,
+        "ppi": 63.4
+    },
+    {
+        "number": 545,
+        "city": "Giza, Egypt",
+        "colIndex": 20.3,
+        "rentIndex": 2.8,
+        "colAndRent": 12,
+        "groceries": 17.4,
+        "restaurant": 14.4,
+        "ppi": 20.6
+    },
+    {
+        "number": 546,
+        "city": "Alexandria, Egypt",
+        "colIndex": 19.8,
+        "rentIndex": 3.1,
+        "colAndRent": 11.8,
+        "groceries": 18.6,
+        "restaurant": 17.1,
+        "ppi": 17.3
+    },
+    {
+        "number": 547,
+        "city": "Lahore, Pakistan",
+        "colIndex": 19.6,
+        "rentIndex": 3.3,
+        "colAndRent": 11.8,
+        "groceries": 15.6,
+        "restaurant": 16.4,
+        "ppi": 24
+    },
+    {
+        "number": 548,
+        "city": "Islamabad, Pakistan",
+        "colIndex": 18.3,
+        "rentIndex": 4.5,
+        "colAndRent": 11.8,
+        "groceries": 15.3,
+        "restaurant": 13.9,
+        "ppi": 24.7
+    },
+    {
+        "number": 549,
+        "city": "Karachi, Pakistan",
+        "colIndex": 18.2,
+        "rentIndex": 2.9,
+        "colAndRent": 10.9,
+        "groceries": 16,
+        "restaurant": 12.7,
+        "ppi": 20.4
+    }
+]
