@@ -1,4 +1,4 @@
-import { TableDataKey } from './types';
+import { type TableDataKey } from './types';
 
 export const headers: [TableDataKey, string][] = [
     ['country', 'Country'],

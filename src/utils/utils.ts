@@ -1,4 +1,4 @@
-import { TableData } from './types';
+import { type TableData } from './types';
 
 export const stringToNumber = (string: string) => Number(string.replaceAll(/\D/g, ''));
 const numberStrings: (keyof TableData)[] = ['netPay', 'averageCol', 'averageTax', 'netPay'];
