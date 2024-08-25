@@ -35,7 +35,7 @@ export const UserInputArea = () => {
     12 * baselineExpenses;
 
   return (
-    <div className="flex gap-4">
+    <div className="flex justify-between gap-4">
       <InputGroup>
         <Select
           label="Baseline Country"
