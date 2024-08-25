@@ -11,6 +11,7 @@ export const useColumns = () => {
   const localStorageColumns = useSyncExternalStore(
     subscribeToColumns,
     getColumnsSnapshot,
+    () => JSON.stringify(defaultColumns),
   );
 
   const toggleColumn: ChangeEventHandler<HTMLInputElement> = useCallback(

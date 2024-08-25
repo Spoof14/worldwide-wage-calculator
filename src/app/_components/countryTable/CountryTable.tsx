@@ -12,7 +12,7 @@ export const CountryTable = () => {
   const [sortKey, setSortKey] = useState<keyof TableData>("netPay");
   const [ascending, setAscending] = useState(false);
 
-  const onClick = (newSort: keyof TableData) => {
+  const sort = (newSort: keyof TableData) => {
     if (newSort === sortKey) setAscending((oldVal) => !oldVal);
     setSortKey(newSort);
   };
@@ -33,7 +33,7 @@ export const CountryTable = () => {
               <th
                 key={key}
                 className="border-r hover:cursor-pointer"
-                onClick={() => onClick(key)}
+                onClick={() => sort(key)}
               >
                 {text}
               </th>

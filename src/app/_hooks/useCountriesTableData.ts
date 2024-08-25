@@ -4,8 +4,8 @@ import { api } from "~/trpc/react";
 export const useCountriesTableData = () => {
   const wage = useSalary();
   const [data] = api.table.getData.useSuspenseQuery(
-    { wage },
-    { staleTime: 60 * 60 * 24, refetchOnWindowFocus: false },
+    wage,
+    { staleTime: 1000 * 60 * 60 * 24, refetchOnWindowFocus: false },
   );
   return data?.countries ?? [];
 };
