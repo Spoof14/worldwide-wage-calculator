@@ -28,7 +28,7 @@ async function INTERNAL_getData(salary: string) {
   return { salaryBeforeTax: salary, countries };
 }
 export const getData = unstable_cache(INTERNAL_getData, ["getData"], {
-  revalidate: 60 * 60 * 24,
+  revalidate: 60 * 60 * 24 * 7,
 });
 
 async function getContinentData(salary: string) {
