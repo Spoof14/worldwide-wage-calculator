@@ -8,7 +8,7 @@ import { unstable_cache } from "next/cache";
 
 export const tableRouter = createTRPCRouter({
   getData: publicProcedure
-    .input(z.string())
+    .input(z.string().optional())
     .query(({ input = '70000' }) => {
       return getData(input);
     }),

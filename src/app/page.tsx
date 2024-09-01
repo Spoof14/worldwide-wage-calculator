@@ -5,7 +5,12 @@ import { ColumnOptions } from "./_components/countryTable/ColumnOptions";
 import { CountryTable } from "./_components/countryTable/CountryTable";
 import { UserInputArea } from "./_components/countryTable/UserInputArea";
 
-export default async function Home({ params: { salary = "70000" } }) {
+type PageProps = {
+  searchParams: {
+    salary?: string;
+  };
+};
+export default async function Home({ searchParams: { salary } }: PageProps) {
   void api.table.getData.prefetch(salary);
   return (
     <HydrateClient>
