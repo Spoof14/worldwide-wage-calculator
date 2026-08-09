@@ -45,7 +45,7 @@ async function INTERNAL_getData(salary: string) {
   return { salaryBeforeTax: salary, countries };
 }
 
-export const getData = unstable_cache(INTERNAL_getData, ["getData", "v2"], {
+export const getData = unstable_cache(INTERNAL_getData, ["getData", "v3"], {
   revalidate: 60 * 60 * 24 * 7,
 });
 
