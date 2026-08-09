@@ -3,7 +3,7 @@ import { type TableDataKey } from './types';
 export const headers: [TableDataKey, string][] = [
     ['country', 'Country'],
     ['continent', 'Continent'],
-    ['averageTax', 'Tax + social'],
+    ['averageTax', 'Tax'],
     ['averageCol', 'COL'],
     ['netPay', 'Net pay'],
     ['expenses', 'Expenses'],
