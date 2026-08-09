@@ -1,46 +1,44 @@
 "use client";
-import { useState, type ChangeEvent } from "react";
+
+import { type ChangeEvent } from "react";
+import { useBaseline } from "~/app/_hooks/useBaseline";
 import { useCountriesTableData } from "~/app/_hooks/useCountriesTableData";
+import { formatEuros, stringToNumber } from "~/utils/utils";
 import { Input } from "../Input";
 import { InputGroup } from "../InputGroup";
 import { Select } from "../Select";
 
 export const UserInputArea = () => {
   const countries = useCountriesTableData();
-  const [baselineCountryName, setBaselineCountryName] = useState("Germany");
+  const {
+    country: baselineCountryName,
+    rent: baselineRent,
+    expenses: baselineExpenses,
+    setCountry,
+    setRent,
+    setExpenses,
+  } = useBaseline();
+
   const baseLineCountry = countries.find(
     (country) => country.country === baselineCountryName,
   );
-  const [baselineRent, setBaselineRent] = useState(
-    baseLineCountry?.rent ?? 1000,
-  );
-  const [baselineExpenses, setBaselineExpenses] = useState(
-    baseLineCountry?.expenses ?? 1000,
-  );
 
-  const setBaselineCountry = (e: ChangeEvent<HTMLSelectElement>) => {
-    const country = countries.find(
-      (country) => country.country === e.target.value,
-    );
-    if (!country) return;
-
-    setBaselineRent(country.rent);
-    setBaselineExpenses(country.expenses);
-    setBaselineCountryName(country.country);
+  const onBaselineCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    setCountry(e.target.value);
   };
 
   const moneyAfterAll =
-    Number(baseLineCountry?.netPay.replace(/\D+/g, "") ?? 0) -
+    stringToNumber(baseLineCountry?.netPay ?? 0) -
     12 * baselineRent -
     12 * baselineExpenses;
 
   return (
-    <div className="flex justify-between gap-4">
+    <div className="flex flex-wrap justify-between gap-4">
       <InputGroup>
         <Select
           label="Baseline Country"
           value={baselineCountryName}
-          onChange={setBaselineCountry}
+          onChange={onBaselineCountryChange}
           className="w-full"
         >
           {countries.map((country) => (
@@ -50,24 +48,28 @@ export const UserInputArea = () => {
           ))}
         </Select>
         <Input
-          label="Baseline Expenses"
+          label="Baseline Expenses (monthly)"
           type="number"
           value={baselineExpenses}
-          onChange={(e) => setBaselineExpenses(Number(e.target.value))}
+          onChange={(e) => setExpenses(Number(e.target.value))}
         />
         <Input
-          label="Baseline Rent"
+          label="Baseline Rent (monthly)"
           type="number"
           value={baselineRent}
-          onChange={(e) => setBaselineRent(Number(e.target.value))}
+          onChange={(e) => setRent(Number(e.target.value))}
         />
       </InputGroup>
 
-      <div className="grid gap-2">
+      <div className="grid gap-2 text-sm text-slate-200">
         <p>Money after tax (Net pay): {baseLineCountry?.netPay}</p>
-        <p>Expenses: {baselineExpenses * 12}</p>
-        <p>Rent: {baselineRent * 12}</p>
-        <p>Money after all: {moneyAfterAll}</p>
+        <p>Expenses / year: {formatEuros(baselineExpenses * 12)}</p>
+        <p>Rent / year: {formatEuros(baselineRent * 12)}</p>
+        <p>Left over: {formatEuros(moneyAfterAll)}</p>
+        <p className="max-w-md text-slate-400">
+          Breakeven is the gross salary another country needs so leftover money
+          matches this baseline.
+        </p>
       </div>
     </div>
   );

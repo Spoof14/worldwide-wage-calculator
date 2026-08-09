@@ -13,6 +13,8 @@ export type TableData = {
     expenses: number;
     rent: number;
     moneyAfterAll: number;
+    /** Gross salary needed in this country to match baseline leftover money. */
+    breakeven: number;
 };
 export type TableDataKey = keyof TableData
 

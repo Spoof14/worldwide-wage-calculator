@@ -124,6 +124,7 @@ const makeTableData = (taxCountries: TaxApiCountry[]): TableData[] => {
           expenses,
           rent,
           moneyAfterAll,
+          breakeven: 0,
           netPayAsNumber,
         },
       ];

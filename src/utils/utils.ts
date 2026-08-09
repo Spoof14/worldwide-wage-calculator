@@ -2,9 +2,47 @@ import { type TableData } from './types';
 
 export const stringToNumber = (string: string | number) => Number(String(string).replaceAll(/\D/g, ''));
 const numberStrings: (keyof TableData)[] = ['netPay', 'averageCol', 'averageTax'];
+const numericKeys: (keyof TableData)[] = ['expenses', 'rent', 'moneyAfterAll', 'breakeven'];
+
+export const formatEuros = (value: number) =>
+    `€${Math.round(value).toLocaleString('de-DE')}`;
+
+/**
+ * Gross salary needed in `country` so leftover money matches the baseline.
+ * Uses the country's effective net/gross ratio at the current salary as an approximation.
+ */
+export const computeBreakevenGross = ({
+    salary,
+    baselineNet,
+    baselineRent,
+    baselineExpenses,
+    countryNet,
+    countryRent,
+    countryExpenses,
+}: {
+    salary: number;
+    baselineNet: number;
+    baselineRent: number;
+    baselineExpenses: number;
+    countryNet: number;
+    countryRent: number;
+    countryExpenses: number;
+}) => {
+    if (salary <= 0 || countryNet <= 0) return 0;
+
+    const baselineLeftOver =
+        baselineNet - 12 * (baselineRent + baselineExpenses);
+    const neededNet =
+        baselineLeftOver + 12 * (countryRent + countryExpenses);
+    const netRatio = countryNet / salary;
+
+    return Math.max(0, Math.round(neededNet / netRatio));
+};
 
 export const getSortBy = (ascending: boolean, key: keyof TableData) => (a: TableData, b: TableData) => {
     const firstVal = ascending ? 1 : -1, secondVal = ascending ? -1 : 1;
-    if(numberStrings.includes(key)) return stringToNumber(a[key]) > stringToNumber(b[key]) ? firstVal : secondVal;
+    if (numberStrings.includes(key) || numericKeys.includes(key)) {
+        return stringToNumber(a[key]) > stringToNumber(b[key]) ? firstVal : secondVal;
+    }
     return a[key] > b[key] ? firstVal : secondVal;
 };
