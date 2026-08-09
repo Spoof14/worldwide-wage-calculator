@@ -1,23 +1,69 @@
 "use client";
-import React, { useState } from "react";
-import { headers } from "~/utils/const";
+
+import { useState } from "react";
+import { useBaseline } from "~/app/_hooks/useBaseline";
+import {
+  useCountriesTableData,
+  useSalary,
+} from "~/app/_hooks/useCountriesTableData";
+import { headerHints, headers } from "~/utils/const";
 import { type TableData } from "~/utils/types";
-import { getSortBy } from "~/utils/utils";
-import { useCountriesTableData } from "../../_hooks/useCountriesTableData";
+import {
+  computeBreakevenGross,
+  formatEuros,
+  getSortBy,
+  stringToNumber,
+} from "~/utils/utils";
 import { useColumns } from "../../_hooks/useColumns";
+
+const formatCell = (key: keyof TableData, value: TableData[keyof TableData]) => {
+  if (
+    key === "breakeven" ||
+    key === "moneyAfterAll" ||
+    key === "expenses" ||
+    key === "rent"
+  ) {
+    return formatEuros(Number(value));
+  }
+  return String(value);
+};
 
 export const CountryTable = () => {
   const [columns] = useColumns();
   const countries = useCountriesTableData();
-  const [sortKey, setSortKey] = useState<keyof TableData>("netPay");
-  const [ascending, setAscending] = useState(false);
+  const salary = Number(useSalary());
+  const baseline = useBaseline();
+  const [sortKey, setSortKey] = useState<keyof TableData>("breakeven");
+  const [ascending, setAscending] = useState(true);
+
+  const baselineCountry = countries.find(
+    (country) => country.country === baseline.country,
+  );
+  const baselineNet = stringToNumber(baselineCountry?.netPay ?? 0);
+
+  const rows = countries.map((country) => ({
+    ...country,
+    breakeven: computeBreakevenGross({
+      salary,
+      baselineNet,
+      baselineRent: baseline.rent,
+      baselineExpenses: baseline.expenses,
+      countryNet: stringToNumber(country.netPay),
+      countryRent: country.rent,
+      countryExpenses: country.expenses,
+    }),
+  }));
 
   const sort = (newSort: keyof TableData) => {
     if (newSort === sortKey) setAscending((oldVal) => !oldVal);
-    setSortKey(newSort);
+    else {
+      setSortKey(newSort);
+      setAscending(newSort === "breakeven" || newSort === "country");
+    }
   };
+
   const sortByFunc = getSortBy(ascending, sortKey);
-  const sortedData = countries.slice().sort(sortByFunc);
+  const sortedData = rows.slice().sort(sortByFunc);
 
   const visibleHeaders = headers.filter(
     ([header]) => columns[header] !== false,
@@ -33,24 +79,34 @@ export const CountryTable = () => {
               <th
                 key={key}
                 className="border-r hover:cursor-pointer"
+                title={headerHints[key]}
                 onClick={() => sort(key)}
               >
                 {text}
+                {sortKey === key ? (ascending ? " ↑" : " ↓") : ""}
               </th>
             ))}
           </tr>
         </thead>
         <tbody>
-          {sortedData.map((data, i) => (
-            <tr className="p-4 even:bg-slate-900" key={data.country}>
-              <td className="p-2">{i + 1}</td>
-              {visibleHeaders.map(([key]) => (
-                <td key={key} className="p-2">
-                  {String(data[key])}
-                </td>
-              ))}
-            </tr>
-          ))}
+          {sortedData.map((data, i) => {
+            const isBaseline = data.country === baseline.country;
+            return (
+              <tr
+                className={`p-4 ${isBaseline ? "bg-indigo-950/80" : "even:bg-slate-900"}`}
+                key={data.country}
+              >
+                <td className="p-2">{i + 1}</td>
+                {visibleHeaders.map(([key]) => (
+                  <td key={key} className="p-2">
+                    {key === "country" && isBaseline
+                      ? `${data.country} (baseline)`
+                      : formatCell(key, data[key])}
+                  </td>
+                ))}
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </section>
