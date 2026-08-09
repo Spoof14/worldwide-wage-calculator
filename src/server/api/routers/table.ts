@@ -3,18 +3,14 @@ import colData from "../data/colData.json";
 import continentsByCode from "../data/continents.json";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import {
+  applyTaxCorrections,
+  type TaxApiCountry,
+} from "~/server/api/tax/corrections";
 import { type TableData } from "~/utils/types";
 import { unstable_cache } from "next/cache";
 
 const TAX_API_URL = "https://globaltaxcalculator.net/api/calculate";
-
-type TaxApiCountry = {
-  country: string;
-  countryCode: string;
-  originalNet: number;
-  originalTax: number;
-  tax: { rate: number };
-};
 
 /** Alternate names so tax API countries match Numbeo-style city strings in colData. */
 const COUNTRY_ALIASES: Record<string, string[]> = {
@@ -49,7 +45,7 @@ async function INTERNAL_getData(salary: string) {
   return { salaryBeforeTax: salary, countries };
 }
 
-export const getData = unstable_cache(INTERNAL_getData, ["getData"], {
+export const getData = unstable_cache(INTERNAL_getData, ["getData", "v2"], {
   revalidate: 60 * 60 * 24 * 7,
 });
 
@@ -77,7 +73,7 @@ async function fetchTaxCountries(salary: string): Promise<TaxApiCountry[]> {
     throw new Error("Tax API returned an unexpected response");
   }
 
-  return data as TaxApiCountry[];
+  return applyTaxCorrections(data as TaxApiCountry[]);
 }
 
 const cityMatchesCountry = (city: string, country: string) => {
