@@ -9,7 +9,8 @@ export const headers: [TableDataKey, string][] = [
     ['expenses', 'Expenses'],
     ['rent', 'Rent'],
     ['moneyAfterAll', 'Left over'],
-    ['breakeven', 'Breakeven'],
+    ['breakeven', 'Breakeven COL'],
+    ['breakevenNet', 'Breakeven net'],
 ];
 
 export const headerHints: Partial<Record<TableDataKey, string>> = {
@@ -22,5 +23,7 @@ export const headerHints: Partial<Record<TableDataKey, string>> = {
     rent: 'Estimated monthly rent scaled by rent index',
     moneyAfterAll: 'Net pay minus 12× rent and 12× expenses',
     breakeven:
-        'Gross salary needed here to keep the same leftover money as your baseline country',
+        'Gross salary needed here so leftover money matches the baseline (uses rent/expenses from COL)',
+    breakevenNet:
+        'Gross salary needed here so net pay matches the baseline (ignores COL/rent/expenses)',
 };

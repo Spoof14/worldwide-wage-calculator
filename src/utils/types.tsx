@@ -13,8 +13,10 @@ export type TableData = {
     expenses: number;
     rent: number;
     moneyAfterAll: number;
-    /** Gross salary needed in this country to match baseline leftover money. */
+    /** Gross salary needed here to match baseline leftover money (COL/rent/expenses). */
     breakeven: number;
+    /** Gross salary needed here to match baseline net pay only. */
+    breakevenNet: number;
 };
 export type TableDataKey = keyof TableData
 
