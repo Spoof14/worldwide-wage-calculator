@@ -10,6 +10,7 @@ import { headerHints, headers } from "~/utils/const";
 import { type TableData } from "~/utils/types";
 import {
   computeBreakevenGross,
+  computeBreakevenNetGross,
   formatEuros,
   getSortBy,
   stringToNumber,
@@ -19,6 +20,7 @@ import { useColumns } from "../../_hooks/useColumns";
 const formatCell = (key: keyof TableData, value: TableData[keyof TableData]) => {
   if (
     key === "breakeven" ||
+    key === "breakevenNet" ||
     key === "moneyAfterAll" ||
     key === "expenses" ||
     key === "rent"
@@ -33,7 +35,7 @@ export const CountryTable = () => {
   const countries = useCountriesTableData();
   const salary = Number(useSalary());
   const baseline = useBaseline();
-  const [sortKey, setSortKey] = useState<keyof TableData>("breakeven");
+  const [sortKey, setSortKey] = useState<keyof TableData>("breakevenNet");
   const [ascending, setAscending] = useState(true);
 
   const baselineCountry = countries.find(
@@ -41,24 +43,36 @@ export const CountryTable = () => {
   );
   const baselineNet = stringToNumber(baselineCountry?.netPay ?? 0);
 
-  const rows = countries.map((country) => ({
-    ...country,
-    breakeven: computeBreakevenGross({
-      salary,
-      baselineNet,
-      baselineRent: baseline.rent,
-      baselineExpenses: baseline.expenses,
-      countryNet: stringToNumber(country.netPay),
-      countryRent: country.rent,
-      countryExpenses: country.expenses,
-    }),
-  }));
+  const rows = countries.map((country) => {
+    const countryNet = stringToNumber(country.netPay);
+    return {
+      ...country,
+      breakeven: computeBreakevenGross({
+        salary,
+        baselineNet,
+        baselineRent: baseline.rent,
+        baselineExpenses: baseline.expenses,
+        countryNet,
+        countryRent: country.rent,
+        countryExpenses: country.expenses,
+      }),
+      breakevenNet: computeBreakevenNetGross({
+        salary,
+        baselineNet,
+        countryNet,
+      }),
+    };
+  });
 
   const sort = (newSort: keyof TableData) => {
     if (newSort === sortKey) setAscending((oldVal) => !oldVal);
     else {
       setSortKey(newSort);
-      setAscending(newSort === "breakeven" || newSort === "country");
+      setAscending(
+        newSort === "breakeven" ||
+          newSort === "breakevenNet" ||
+          newSort === "country",
+      );
     }
   };
 

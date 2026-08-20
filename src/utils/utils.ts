@@ -2,7 +2,13 @@ import { type TableData } from './types';
 
 export const stringToNumber = (string: string | number) => Number(String(string).replaceAll(/\D/g, ''));
 const numberStrings: (keyof TableData)[] = ['netPay', 'averageCol', 'averageTax'];
-const numericKeys: (keyof TableData)[] = ['expenses', 'rent', 'moneyAfterAll', 'breakeven'];
+const numericKeys: (keyof TableData)[] = [
+    'expenses',
+    'rent',
+    'moneyAfterAll',
+    'breakeven',
+    'breakevenNet',
+];
 
 export const formatEuros = (value: number) =>
     `€${Math.round(value).toLocaleString('de-DE')}`;
@@ -37,6 +43,23 @@ export const computeBreakevenGross = ({
     const netRatio = countryNet / salary;
 
     return Math.max(0, Math.round(neededNet / netRatio));
+};
+
+/**
+ * Gross salary needed in `country` so net pay matches the baseline net pay.
+ * Ignores COL, rent, and expenses.
+ */
+export const computeBreakevenNetGross = ({
+    salary,
+    baselineNet,
+    countryNet,
+}: {
+    salary: number;
+    baselineNet: number;
+    countryNet: number;
+}) => {
+    if (salary <= 0 || countryNet <= 0) return 0;
+    return Math.max(0, Math.round((baselineNet * salary) / countryNet));
 };
 
 export const getSortBy = (ascending: boolean, key: keyof TableData) => (a: TableData, b: TableData) => {

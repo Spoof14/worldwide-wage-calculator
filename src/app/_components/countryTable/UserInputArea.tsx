@@ -67,8 +67,8 @@ export const UserInputArea = () => {
         <p>Rent / year: {formatEuros(baselineRent * 12)}</p>
         <p>Left over: {formatEuros(moneyAfterAll)}</p>
         <p className="max-w-md text-slate-400">
-          Breakeven is the gross salary another country needs so leftover money
-          matches this baseline.
+          Breakeven COL matches leftover money after rent/expenses. Breakeven
+          net matches take-home pay only.
         </p>
       </div>
     </div>
