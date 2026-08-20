@@ -1,9 +1,10 @@
 "use client";
 
 import { ColumnOptions } from "./ColumnOptions";
+import { ContinentOptions } from "./ContinentOptions";
 import { UserInputArea } from "./UserInputArea";
 
-/** Baseline + column controls, collapsed by default to save mobile space. */
+/** Baseline + column/continent controls, collapsed by default for mobile. */
 export const FiltersPanel = () => {
   return (
     <details className="rounded-sm border border-slate-700 bg-slate-900/40">
@@ -12,6 +13,7 @@ export const FiltersPanel = () => {
       </summary>
       <div className="grid gap-4 border-t border-slate-700 p-3">
         <UserInputArea />
+        <ContinentOptions />
         <ColumnOptions />
       </div>
     </details>
