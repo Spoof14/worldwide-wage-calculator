@@ -1,17 +1,15 @@
 "use client";
 
 import { BaselineProvider } from "~/app/_hooks/useBaseline";
-import { ColumnOptions } from "./ColumnOptions";
 import { CountryTable } from "./CountryTable";
+import { FiltersPanel } from "./FiltersPanel";
 import { SalaryHeader } from "./SalaryHeader";
-import { UserInputArea } from "./UserInputArea";
 
 export const Calculator = () => {
   return (
     <BaselineProvider>
       <SalaryHeader />
-      <UserInputArea />
-      <ColumnOptions />
+      <FiltersPanel />
       <CountryTable />
     </BaselineProvider>
   );
