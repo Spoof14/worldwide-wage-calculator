@@ -39,7 +39,7 @@ export const useContinents = () => {
   return [selected, toggleContinent] as const;
 };
 
-const STORAGE_KEY = "continents";
+const STORAGE_KEY = "continents-v2";
 
 const subscribeToContinents = (callback: () => void) => {
   window.addEventListener("storage", callback);

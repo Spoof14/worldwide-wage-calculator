@@ -22,7 +22,7 @@ type BaselineContextValue = {
 const BaselineContext = createContext<BaselineContextValue | null>(null);
 
 export const BaselineProvider = ({ children }: { children: ReactNode }) => {
-  const countries = useCountriesTableData();
+  const { countries } = useCountriesTableData();
   const defaultCountry =
     countries.find((country) => country.country === "Germany") ?? countries[0];
 

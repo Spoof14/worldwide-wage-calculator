@@ -7,6 +7,7 @@ import {
   applyTaxCorrections,
   type TaxApiCountry,
 } from "~/server/api/tax/corrections";
+import { type FxRates, eurRates } from "~/utils/currency";
 import { type TableData } from "~/utils/types";
 import { unstable_cache } from "next/cache";
 
@@ -34,19 +35,58 @@ export const tableRouter = createTRPCRouter({
         return await getData(input);
       } catch (error) {
         console.error("Failed to load wage comparison data", error);
-        return { salaryBeforeTax: input, countries: [] as TableData[] };
+        return {
+          salaryBeforeTax: input,
+          taxYear: "2026",
+          countries: [] as TableData[],
+        };
       }
     }),
+  getRates: publicProcedure.query(() => getRates()),
 });
 
 async function INTERNAL_getData(salary: string) {
   const taxCountries = await fetchTaxCountries(salary);
   const countries = makeTableData(taxCountries);
-  return { salaryBeforeTax: salary, countries };
+  const taxYear = taxCountries[0]?.taxYear ?? "2026";
+  return { salaryBeforeTax: salary, taxYear, countries };
 }
 
-export const getData = unstable_cache(INTERNAL_getData, ["getData", "v3"], {
+export const getData = unstable_cache(INTERNAL_getData, ["getData", "v4"], {
   revalidate: 60 * 60 * 24 * 7,
+});
+
+async function INTERNAL_getRates(): Promise<FxRates> {
+  try {
+    const response = await fetch(
+      "https://api.frankfurter.app/latest?from=EUR&to=USD,GBP,KRW",
+      { next: { revalidate: 60 * 60 * 24 } },
+    );
+    if (!response.ok) return eurRates;
+    const data: unknown = await response.json();
+    if (
+      !data ||
+      typeof data !== "object" ||
+      !("rates" in data) ||
+      typeof data.rates !== "object" ||
+      data.rates === null
+    ) {
+      return eurRates;
+    }
+    const rates = data.rates as Record<string, number>;
+    return {
+      EUR: 1,
+      USD: Number(rates.USD) || 1,
+      GBP: Number(rates.GBP) || 1,
+      KRW: Number(rates.KRW) || 1,
+    };
+  } catch {
+    return eurRates;
+  }
+}
+
+export const getRates = unstable_cache(INTERNAL_getRates, ["fxRates"], {
+  revalidate: 60 * 60 * 24,
 });
 
 async function fetchTaxCountries(salary: string): Promise<TaxApiCountry[]> {
