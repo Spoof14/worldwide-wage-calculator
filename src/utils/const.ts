@@ -4,10 +4,18 @@ export const continents = [
     'Africa',
     'Asia-Pacific',
     'Europe',
-    'N. America',
+    'North America',
+    'South America',
 ] as const;
 
 export type Continent = (typeof continents)[number];
+
+export const compactColumnKeys: TableDataKey[] = [
+    'country',
+    'averageTax',
+    'netPay',
+    'breakevenNet',
+];
 
 export const headers: [TableDataKey, string][] = [
     ['country', 'Country'],
@@ -15,8 +23,8 @@ export const headers: [TableDataKey, string][] = [
     ['averageTax', 'Tax'],
     ['averageCol', 'COL index'],
     ['netPay', 'Net pay'],
-    ['expenses', 'Expenses'],
-    ['rent', 'Rent'],
+    ['expenses', 'Expenses / mo'],
+    ['rent', 'Rent / mo'],
     ['moneyAfterAll', 'Left over'],
     ['breakeven', 'Breakeven COL'],
     ['breakevenNet', 'Breakeven net'],
@@ -25,7 +33,7 @@ export const headers: [TableDataKey, string][] = [
 export const headerHints: Partial<Record<TableDataKey, string>> = {
     averageTax:
         'Effective rate of income tax plus mandatory employee social contributions (including health insurance where required)',
-    averageCol: 'Cost of living index vs Frankfurt (higher = more expensive)',
+    averageCol: 'Cost of living index vs Frankfurt (higher = more expensive). Not a currency amount.',
     netPay:
         'Annual take-home pay after tax and mandatory social/health contributions',
     expenses: 'Estimated monthly living expenses scaled by COL',

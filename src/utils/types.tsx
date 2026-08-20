@@ -23,6 +23,7 @@ export type TableDataKey = keyof TableData
 
 export type Data = {
     salaryBeforeTax: string;
+    taxYear?: string;
     countries: TableData[];
 };
 export type ContinentData = [string, string, string, string, string]

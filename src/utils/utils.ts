@@ -1,4 +1,5 @@
 import { type TableData } from './types';
+import { type Currency, formatMoney } from './currency';
 
 export const stringToNumber = (string: string | number) => Number(String(string).replaceAll(/\D/g, ''));
 const numberStrings: (keyof TableData)[] = ['netPay', 'averageCol', 'averageTax'];
@@ -10,8 +11,8 @@ const numericKeys: (keyof TableData)[] = [
     'breakevenNet',
 ];
 
-export const formatEuros = (value: number) =>
-    `€${Math.round(value).toLocaleString('de-DE')}`;
+export const formatEuros = (value: number, currency: Currency = 'EUR') =>
+    formatMoney(value, currency);
 
 /**
  * Gross salary needed in `country` so leftover money matches the baseline.

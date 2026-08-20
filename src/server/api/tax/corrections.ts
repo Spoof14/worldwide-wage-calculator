@@ -16,6 +16,7 @@ export type TaxApiCountry = {
   originalGross: number;
   originalNet: number;
   originalTax: number;
+  taxYear?: string;
   exchangeRate?: number;
   tax: {
     rate: number;
