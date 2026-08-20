@@ -2,11 +2,12 @@
 
 import { useState } from "react";
 import { useBaseline } from "~/app/_hooks/useBaseline";
+import { useContinents } from "~/app/_hooks/useContinents";
 import {
   useCountriesTableData,
   useSalary,
 } from "~/app/_hooks/useCountriesTableData";
-import { headerHints, headers } from "~/utils/const";
+import { headerHints, headers, type Continent } from "~/utils/const";
 import { type TableData } from "~/utils/types";
 import {
   computeBreakevenGross,
@@ -32,6 +33,7 @@ const formatCell = (key: keyof TableData, value: TableData[keyof TableData]) => 
 
 export const CountryTable = () => {
   const [columns] = useColumns();
+  const [continentFilters] = useContinents();
   const countries = useCountriesTableData();
   const salary = Number(useSalary());
   const baseline = useBaseline();
@@ -43,26 +45,31 @@ export const CountryTable = () => {
   );
   const baselineNet = stringToNumber(baselineCountry?.netPay ?? 0);
 
-  const rows = countries.map((country) => {
-    const countryNet = stringToNumber(country.netPay);
-    return {
-      ...country,
-      breakeven: computeBreakevenGross({
-        salary,
-        baselineNet,
-        baselineRent: baseline.rent,
-        baselineExpenses: baseline.expenses,
-        countryNet,
-        countryRent: country.rent,
-        countryExpenses: country.expenses,
-      }),
-      breakevenNet: computeBreakevenNetGross({
-        salary,
-        baselineNet,
-        countryNet,
-      }),
-    };
-  });
+  const rows = countries
+    .filter((country) => {
+      const continent = country.continent as Continent;
+      return continentFilters[continent] !== false;
+    })
+    .map((country) => {
+      const countryNet = stringToNumber(country.netPay);
+      return {
+        ...country,
+        breakeven: computeBreakevenGross({
+          salary,
+          baselineNet,
+          baselineRent: baseline.rent,
+          baselineExpenses: baseline.expenses,
+          countryNet,
+          countryRent: country.rent,
+          countryExpenses: country.expenses,
+        }),
+        breakevenNet: computeBreakevenNetGross({
+          salary,
+          baselineNet,
+          countryNet,
+        }),
+      };
+    });
 
   const sort = (newSort: keyof TableData) => {
     if (newSort === sortKey) setAscending((oldVal) => !oldVal);
@@ -84,8 +91,8 @@ export const CountryTable = () => {
   );
 
   return (
-    <section className="min-h-56 w-full overflow-auto">
-      <table className="w-full">
+    <section className="min-h-[50vh] w-full overflow-auto">
+      <table className="min-h-[50vh] w-full">
         <thead>
           <tr>
             <th className="border-r">#</th>

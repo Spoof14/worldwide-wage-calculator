@@ -41,11 +41,14 @@ export const UserInputArea = () => {
           onChange={onBaselineCountryChange}
           className="w-full"
         >
-          {countries.map((country) => (
-            <option key={country.country} value={country.country}>
-              {country.country}
-            </option>
-          ))}
+          {countries
+            .slice()
+            .sort((a, b) => a.country.localeCompare(b.country))
+            .map((country) => (
+              <option key={country.country} value={country.country}>
+                {country.country}
+              </option>
+            ))}
         </Select>
         <Input
           label="Baseline Expenses (monthly)"

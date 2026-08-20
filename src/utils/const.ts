@@ -1,5 +1,14 @@
 import { type TableDataKey } from './types';
 
+export const continents = [
+    'Africa',
+    'Asia-Pacific',
+    'Europe',
+    'N. America',
+] as const;
+
+export type Continent = (typeof continents)[number];
+
 export const headers: [TableDataKey, string][] = [
     ['country', 'Country'],
     ['continent', 'Continent'],
