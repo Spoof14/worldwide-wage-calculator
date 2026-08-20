@@ -2,6 +2,9 @@ import { api, HydrateClient } from "~/trpc/server";
 import { Suspense } from "react";
 import { Calculator } from "./_components/countryTable/Calculator";
 
+/** Run this page's server work in Seoul (icn1). */
+export const preferredRegion = "icn1";
+
 type PageProps = {
   searchParams: {
     salary?: string;
